@@ -1,0 +1,6 @@
+*ERROR* 	2015/07/30 - 09:53:32: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 5<br /><br /><pre>
+			SELECT cat.id_category, cat_lang.name, cat_lang.link_rewrite
+			FROM ps_category cat
+			LEFT JOIN ps_category_lang cat_lang ON(cat.id_category = cat_lang.id_category)
+			WHERE cat.id_parent = 14
+            AND UPPER(cat_lang.name) LIKE UPPER(a%)</pre> at line 646 in file classes/db/Db.php

@@ -1,0 +1,25 @@
+*ERROR* 	2015/07/29 - 09:05:45: Unknown column 'cat.idcategory' in 'where clause'<br /><br /><pre>
+			SELECT cat.id_category, cat_lang.name, cat_lang.link_rewrite
+			FROM ps_category cat
+			LEFT JOIN ps_category_lang cat_lang ON(cat.id_category = cat_lang.id_category)
+			WHERE cat.idcategory IN (Array)</pre> at line 646 in file classes/db/Db.php
+*ERROR* 	2015/07/29 - 09:07:15: Unknown column 'cat.idcategory' in 'where clause'<br /><br /><pre>
+			SELECT cat.id_category, cat_lang.name, cat_lang.link_rewrite
+			FROM ps_category cat
+			LEFT JOIN ps_category_lang cat_lang ON(cat.id_category = cat_lang.id_category)
+			WHERE cat.idcategory IN ("Array")</pre> at line 646 in file classes/db/Db.php
+*ERROR* 	2015/07/29 - 09:07:16: Unknown column 'cat.idcategory' in 'where clause'<br /><br /><pre>
+			SELECT cat.id_category, cat_lang.name, cat_lang.link_rewrite
+			FROM ps_category cat
+			LEFT JOIN ps_category_lang cat_lang ON(cat.id_category = cat_lang.id_category)
+			WHERE cat.idcategory IN ("Array")</pre> at line 646 in file classes/db/Db.php
+*ERROR* 	2015/07/29 - 09:08:43: Unknown column 'cat.idcategory' in 'where clause'<br /><br /><pre>
+			SELECT cat.id_category, cat_lang.name, cat_lang.link_rewrite
+			FROM ps_category cat
+			LEFT JOIN ps_category_lang cat_lang ON(cat.id_category = cat_lang.id_category)
+			WHERE cat.idcategory IN (15,16)</pre> at line 646 in file classes/db/Db.php
+*ERROR* 	2015/07/29 - 09:15:02: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 4<br /><br /><pre>
+			SELECT cat.id_category, cat_lang.name, cat_lang.link_rewrite
+			FROM ps_category cat
+			LEFT JOIN ps_category_lang cat_lang ON(cat.id_category = cat_lang.id_category)
+			WHERE cat.id_category IN ()</pre> at line 646 in file classes/db/Db.php

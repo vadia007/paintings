@@ -1,0 +1,5 @@
+*ERROR* 	2015/07/08 - 11:51:38: Unknown column 'cat_ln.name' in 'field list'<br /><br /><pre>
+			SELECT cat.id_category, cat_ln.name
+			FROM `ps_category` cat
+			INNER JOIN  `ps_category_lang` ON (cat.id_category = cat_ln.id_category)
+			WHERE cat.id_category = 2</pre> at line 646 in file classes/db/Db.php
