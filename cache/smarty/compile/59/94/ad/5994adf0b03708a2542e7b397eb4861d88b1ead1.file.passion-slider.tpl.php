@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2015-08-03 15:18:23
+<?php /* Smarty version Smarty-3.1.19, created on 2015-08-04 09:52:25
          compiled from "/var/www/html/paintings.loc/themes/paintings/passion-slider.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:176805188655bf782f5b7fc0-30811858%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:13146744555c07d49548266-39172769%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '176805188655bf782f5b7fc0-30811858',
+  'nocache_hash' => '13146744555c07d49548266-39172769',
   'function' => 
   array (
   ),
@@ -21,9 +21,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_55bf782f5dbc10_81361492',
+  'unifunc' => 'content_55c07d4956c197_50601702',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_55bf782f5dbc10_81361492')) {function content_55bf782f5dbc10_81361492($_smarty_tpl) {?><div class="quality-materials-block centering clearfix">
+<?php if ($_valid && !is_callable('content_55c07d4956c197_50601702')) {function content_55c07d4956c197_50601702($_smarty_tpl) {?><div class="quality-materials-block centering clearfix">
     <div class="quality-foto-slider">
         <div class="fullwidth toup clearfix">
             <img src="<?php echo $_smarty_tpl->tpl_vars['img_dir']->value;?>

@@ -1,4 +1,4 @@
-<?php /*%%SmartyHeaderCode:146528981555bf6fbc3fc234-89525269%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:170326245955c07d4ce942e6-97950128%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -9,13 +9,23 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '146528981555bf6fbc3fc234-89525269',
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_55bf7833e49825_26584265',
+  'nocache_hash' => '170326245955c07d4ce942e6-97950128',
+  'variables' => 
+  array (
+    'meta_title' => 0,
+    'request' => 0,
+    'shop_name' => 0,
+    'meta_description' => 0,
+    'link_rewrite' => 0,
+    'cover' => 0,
+    'link' => 0,
+  ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_55c07d4cec7a54_14150873',
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_55bf7833e49825_26584265')) {function content_55bf7833e49825_26584265($_smarty_tpl) {?><meta property="og:title" content="Blouse - Passion for paintings" />
+<?php if ($_valid && !is_callable('content_55c07d4cec7a54_14150873')) {function content_55c07d4cec7a54_14150873($_smarty_tpl) {?><meta property="og:title" content="Blouse - Passion for paintings" />
 <meta property="og:url" content="http://paintings.loc/sandro-botticelli/11-blouse.html" />
 <meta property="og:type" content="product" />
 <meta property="og:site_name" content="Passion for paintings" />

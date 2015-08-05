@@ -9343,4 +9343,10 @@ label[for='invoice_address'] {
 #opc_account_form {
   display: block !important;
 }
+#login_form {
+  display: none;
+}
+#carrier_area {
+  display: none;
+}
 /*# sourceMappingURL=global.css.map */

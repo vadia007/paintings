@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2015-08-03 14:42:24
+<?php /* Smarty version Smarty-3.1.19, created on 2015-08-04 09:52:33
          compiled from "/var/www/html/paintings.loc/themes/paintings/modules/productcomments//productcomments-extra.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:179969461155bf6fc0710800-34527481%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:188893569155c07d51562031-65844481%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '179969461155bf6fc0710800-34527481',
+  'nocache_hash' => '188893569155c07d51562031-65844481',
   'function' => 
   array (
   ),
@@ -27,9 +27,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_55bf6fc0756865_67835965',
+  'unifunc' => 'content_55c07d515ac9b0_22321377',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_55bf6fc0756865_67835965')) {function content_55bf6fc0756865_67835965($_smarty_tpl) {?> 
+<?php if ($_valid && !is_callable('content_55c07d515ac9b0_22321377')) {function content_55c07d515ac9b0_22321377($_smarty_tpl) {?> 
 <?php if ((!$_smarty_tpl->tpl_vars['content_only']->value&&(($_smarty_tpl->tpl_vars['nbComments']->value==0&&$_smarty_tpl->tpl_vars['too_early']->value==false&&($_smarty_tpl->tpl_vars['is_logged']->value||$_smarty_tpl->tpl_vars['allow_guests']->value))||($_smarty_tpl->tpl_vars['nbComments']->value!=0)))) {?>
 <div id="product_comments_block_extra" class="no-print" itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
 	<?php if ($_smarty_tpl->tpl_vars['nbComments']->value!=0) {?>

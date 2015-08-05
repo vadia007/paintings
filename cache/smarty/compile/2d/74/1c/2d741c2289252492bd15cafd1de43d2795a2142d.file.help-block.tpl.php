@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2015-08-03 15:18:23
+<?php /* Smarty version Smarty-3.1.19, created on 2015-08-04 09:52:25
          compiled from "/var/www/html/paintings.loc/themes/paintings/help-block.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:186434601955bf782f5f8655-39769870%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:129512656455c07d49585ab6-02448774%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '186434601955bf782f5f8655-39769870',
+  'nocache_hash' => '129512656455c07d49585ab6-02448774',
   'function' => 
   array (
   ),
@@ -21,9 +21,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_55bf782f609f65_10680665',
+  'unifunc' => 'content_55c07d49596d36_36663032',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_55bf782f609f65_10680665')) {function content_55bf782f609f65_10680665($_smarty_tpl) {?><div class="help-block centering">
+<?php if ($_valid && !is_callable('content_55c07d49596d36_36663032')) {function content_55c07d49596d36_36663032($_smarty_tpl) {?><div class="help-block centering">
     <div class="help-block-content">
         <div class="help-card clearfix">
             <div class="column left">

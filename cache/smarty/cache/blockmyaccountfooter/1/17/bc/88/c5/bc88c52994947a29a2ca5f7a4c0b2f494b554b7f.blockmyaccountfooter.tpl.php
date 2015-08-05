@@ -1,4 +1,4 @@
-<?php /*%%SmartyHeaderCode:10240082455bf6fc0a25602-24111684%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:68057571855c07d48ab7656-46763254%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -9,7 +9,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '10240082455bf6fc0a25602-24111684',
+  'nocache_hash' => '68057571855c07d48ab7656-46763254',
   'variables' => 
   array (
     'link' => 0,
@@ -20,10 +20,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_55bf6fc0a850a9_58363500',
+  'unifunc' => 'content_55c07d48b179d2_18339599',
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_55bf6fc0a850a9_58363500')) {function content_55bf6fc0a850a9_58363500($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_55c07d48b179d2_18339599')) {function content_55c07d48b179d2_18339599($_smarty_tpl) {?>
 <!-- Block myaccount module -->
 <section class="footer-block col-xs-12 col-sm-4">
 	<h4><a href="http://paintings.loc/my-account" title="Manage my customer account" rel="nofollow">My account</a></h4>

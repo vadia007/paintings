@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2015-08-03 15:18:23
+<?php /* Smarty version Smarty-3.1.19, created on 2015-08-04 09:52:25
          compiled from "/var/www/html/paintings.loc/themes/paintings/reproduction-slider.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:4678514055bf782f550b58-61913508%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:190405613855c07d494dfca8-70163707%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '4678514055bf782f550b58-61913508',
+  'nocache_hash' => '190405613855c07d494dfca8-70163707',
   'function' => 
   array (
   ),
@@ -21,9 +21,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_55bf782f563459_15332120',
+  'unifunc' => 'content_55c07d494f2827_76230978',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_55bf782f563459_15332120')) {function content_55bf782f563459_15332120($_smarty_tpl) {?><div class="block-description">
+<?php if ($_valid && !is_callable('content_55c07d494f2827_76230978')) {function content_55c07d494f2827_76230978($_smarty_tpl) {?><div class="block-description">
     <div class="text">
         <div class="title"><?php echo smartyTranslate(array('s'=>'The 6 Stages of our'),$_smarty_tpl);?>
 
