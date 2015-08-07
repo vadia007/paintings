@@ -79,6 +79,12 @@
     </div>
 {/if}
 {*{debug}*}
+{if $page_name == 'order-opc' || $page_name == 'module-paypal-confirm' || $page_name == 'module-paypal-submit'}
+<div id="checkout-bg">
+<div id="wrapper-checkout">
+    <div id="wrapper-container">
+        <div id="page-content-top">
+{else}
 <div id="page">
     <div class="header-container">
         <header id="header">
@@ -163,3 +169,4 @@
                 {if isset($left_column_size) && isset($right_column_size)}{assign var='cols' value=(12 - $left_column_size - $right_column_size)}{else}{assign var='cols' value=12}{/if}
                 <div id="center_column" class="center_column col-xs-12 col-sm-{$cols|intval}">
                     {/if}
+{/if}

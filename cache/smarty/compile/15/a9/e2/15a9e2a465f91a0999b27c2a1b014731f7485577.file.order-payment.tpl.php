@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2015-08-04 09:52:45
+<?php /* Smarty version Smarty-3.1.19, created on 2015-08-07 12:30:47
          compiled from "/var/www/html/paintings.loc/themes/paintings/order-payment.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:14985931855c07d5d05b2e4-19265348%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:108307547355c496e79958f3-28300752%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '14985931855c07d5d05b2e4-19265348',
+  'nocache_hash' => '108307547355c496e79958f3-28300752',
   'function' => 
   array (
   ),
@@ -75,9 +75,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_55c07d5d29c070_81452621',
+  'unifunc' => 'content_55c496e7be69a7_56099463',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_55c07d5d29c070_81452621')) {function content_55c07d5d29c070_81452621($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_55c496e7be69a7_56099463')) {function content_55c496e7be69a7_56099463($_smarty_tpl) {?>
 <?php if (!$_smarty_tpl->tpl_vars['opc']->value) {?>
 	<?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['addJsDef'][0][0]->addJsDef(array('currencySign'=>html_entity_decode($_smarty_tpl->tpl_vars['currencySign']->value,2,"UTF-8")),$_smarty_tpl);?>
 

@@ -13,13 +13,13 @@
   ),
   'Address' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/Address.php',
     'type' => 'class',
     'override' => false,
   ),
   'AddressController' => 
   array (
-    'path' => '',
+    'path' => 'override/controllers/front/AddressController.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -1741,7 +1741,7 @@
   ),
   'Customer' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/Customer.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -2785,7 +2785,7 @@
   ),
   'OrderOpcController' => 
   array (
-    'path' => '',
+    'path' => 'override/controllers/front/OrderOpcController.php',
     'type' => 'class',
     'override' => false,
   ),

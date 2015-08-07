@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2015-08-04 09:52:25
+<?php /* Smarty version Smarty-3.1.19, created on 2015-08-07 12:30:21
          compiled from "/var/www/html/paintings.loc/modules/homepagecontent/views/templates/hook/testimonialscontent.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:89402666055c07d494b6436-62214209%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:161131341855c496cdefa5c9-41763995%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '89402666055c07d494b6436-62214209',
+  'nocache_hash' => '161131341855c496cdefa5c9-41763995',
   'function' => 
   array (
   ),
@@ -27,9 +27,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_55c07d494dda93_74833073',
+  'unifunc' => 'content_55c496cdf20356_95494029',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_55c07d494dda93_74833073')) {function content_55c07d494dda93_74833073($_smarty_tpl) {?><div class="testimonials-block centering">
+<?php if ($_valid && !is_callable('content_55c496cdf20356_95494029')) {function content_55c496cdf20356_95494029($_smarty_tpl) {?><div class="testimonials-block centering">
     <div class="testimonials-column-left">
         <div class="testimonials-title">
             <?php if (isset($_smarty_tpl->tpl_vars['testimonials_head']->value)) {?>

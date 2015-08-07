@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2015-08-04 09:52:44
+<?php /* Smarty version Smarty-3.1.19, created on 2015-08-07 12:30:46
          compiled from "/var/www/html/paintings.loc/themes/paintings/order-steps.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:120637576555c07d5c4d9877-65222380%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:66698961855c496e6dc7706-63790211%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '120637576555c07d5c4d9877-65222380',
+  'nocache_hash' => '66698961855c496e6dc7706-63790211',
   'function' => 
   array (
   ),
@@ -25,9 +25,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_55c07d5c5874a2_03380576',
+  'unifunc' => 'content_55c496e6ea5e26_48089109',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_55c07d5c5874a2_03380576')) {function content_55c07d5c5874a2_03380576($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_55c496e6ea5e26_48089109')) {function content_55c496e6ea5e26_48089109($_smarty_tpl) {?>
 
 
 <?php $_smarty_tpl->_capture_stack[0][] = array("url_back", null, null); ob_start(); ?>

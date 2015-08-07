@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2015-08-04 09:52:34
+<?php /* Smarty version Smarty-3.1.19, created on 2015-08-07 12:30:36
          compiled from "/var/www/html/paintings.loc/themes/paintings/free-shiping.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:15715597755c07d520ff4f3-91681833%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:73250130155c496dc2ee134-15643483%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '15715597755c07d520ff4f3-91681833',
+  'nocache_hash' => '73250130155c496dc2ee134-15643483',
   'function' => 
   array (
   ),
@@ -21,9 +21,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_55c07d52104105_90858260',
+  'unifunc' => 'content_55c496dc2f2db4_79773050',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_55c07d52104105_90858260')) {function content_55c07d52104105_90858260($_smarty_tpl) {?><br clear="both"/>
+<?php if ($_valid && !is_callable('content_55c496dc2f2db4_79773050')) {function content_55c496dc2f2db4_79773050($_smarty_tpl) {?><br clear="both"/>
 <div class="average_free_shipping_visa">
     <a href="#"><img src="<?php echo $_smarty_tpl->tpl_vars['img_dir']->value;?>
 free_shipping1.jpg"></a>

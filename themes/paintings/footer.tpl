@@ -22,6 +22,21 @@
 *  @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
 *  International Registered Trademark & Property of PrestaShop SA
 *}
+
+{if $page_name == 'order-opc' || $page_name == 'module-paypal-confirm' || $page_name == 'module-paypal-submit'}
+
+			</div><!-- #page-content-top-->
+		</div><!-- #wrapper-container-->
+
+		<div class="checkout-right-sidebar">
+			{include file="$tpl_dir./checkout-right-sidebar.tpl"}
+		</div>
+
+	</div><!-- #wrapper-checkout-->
+</div><!-- #checkout-bg-->
+
+
+{else}
 {if !isset($content_only) || !$content_only}
 					</div><!-- #center_column -->
 					{if isset($right_column_size) && !empty($right_column_size)}
@@ -76,6 +91,7 @@
 				{*</div><!-- #footer -->*}
 			{/if}
 		</div><!-- #page -->
+{/if}
 {/if}
 {include file="$tpl_dir./global.tpl"}
 	</body>

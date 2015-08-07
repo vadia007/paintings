@@ -78,6 +78,18 @@
                     </label>
                     <input class="is_required validate form-control" data-validate="isName" type="text" name="lastname" id="lastname" value="{$smarty.post.lastname}" />
                 </div>
+                <div class="form-group">
+                    <label for="fax" class="">
+                        {l s='Fax'}
+                    </label>
+                    <input class="validate form-control" type="text" name="fax" id="fax" value="{$smarty.post.fax}" />
+                </div>
+                <div class="form-group">
+                    <label for="details_website" class="">
+                        {l s='Website'}
+                    </label>
+                    <input class="validate form-control" type="text" name="details_website" id="details_website" value="{$smarty.post.details_website}" />
+                </div>
                 <div class="required form-group">
                     <label for="email" class="required">
                         {l s='E-mail address'}

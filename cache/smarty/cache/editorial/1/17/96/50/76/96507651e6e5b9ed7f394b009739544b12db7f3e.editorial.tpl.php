@@ -1,4 +1,4 @@
-<?php /*%%SmartyHeaderCode:100569996155c07d4843ac88-88834196%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:87005590155c496cd154c03-08230170%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -9,7 +9,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '100569996155c07d4843ac88-88834196',
+  'nocache_hash' => '87005590155c496cd154c03-08230170',
   'variables' => 
   array (
     'editorial' => 0,
@@ -21,10 +21,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_55c07d484d5336_56567868',
+  'unifunc' => 'content_55c496cd19d9e1_04306921',
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_55c07d484d5336_56567868')) {function content_55c07d484d5336_56567868($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_55c496cd19d9e1_04306921')) {function content_55c496cd19d9e1_04306921($_smarty_tpl) {?>
 <!-- Module Editorial -->
 <div id="editorial_block_center" class="editorial_block">
 	<a href="http://www.prestashop.com" title="Lorem ipsum dolor sit amet">		</a>	<p id="editorial_image_legend">Lorem ipsum presta shop amet</p>	<h1>Lorem ipsum dolor sit amet</h1>	<h2>Excepteur sint occaecat cupidatat non proident</h2>	<div class="rte"><p><strong>aaaaaaaaa</strong>aaaaaaa<em>a<span style="text-decoration: line-through;">aaa</span></em><span style="text-decoration: line-through;">aaaaaaa</span>aaaaaa</p></div></div>

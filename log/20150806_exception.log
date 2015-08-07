@@ -1,0 +1,21 @@
+*ERROR* 	2015/08/06 - 15:28:09: Unknown column 'sdsd' in 'field list'<br /><br /><pre>UPDATE `ps_address`
+				SET `fax`=sdsd, `website`=sdddd
+				WHERE id_address =5</pre> at line 646 in file classes/db/Db.php
+*ERROR* 	2015/08/06 - 15:28:40: Unknown column 'sdsd' in 'field list'<br /><br /><pre>UPDATE `ps_address`
+				SET `fax`=sdsd, `website`=sdddd
+				WHERE id_address =5</pre> at line 646 in file classes/db/Db.php
+*ERROR* 	2015/08/06 - 15:29:30: Unknown column 'sdsd' in 'field list'<br /><br /><pre>UPDATE `ps_address`
+				SET `fax`=sdsd, `website`=sdddd
+				WHERE id_address =5</pre> at line 646 in file classes/db/Db.php
+*ERROR* 	2015/08/06 - 15:33:31: Unknown column 'sdsd' in 'field list'<br /><br /><pre>UPDATE `ps_address`
+				SET `fax`=sdsd, `website`=sdddd
+				WHERE id_address =5</pre> at line 646 in file classes/db/Db.php
+*ERROR* 	2015/08/06 - 15:34:16: Unknown column 'sdsd' in 'field list'<br /><br /><pre>UPDATE `ps_address`
+				SET `fax`=sdsd, `website`=sdddd
+				WHERE `id_address` =5</pre> at line 646 in file classes/db/Db.php
+*ERROR* 	2015/08/06 - 15:35:00: Unknown column 'sdsd' in 'field list'<br /><br /><pre>UPDATE `ps_address`
+				SET `fax`=sdsd, `website`=sdddd
+				WHERE `id_address` =5</pre> at line 646 in file classes/db/Db.php
+*ERROR* 	2015/08/06 - 15:37:27: Db->executeS() must be used only with select, show, explain or describe queries at line 503 in file classes/db/Db.php
+*ERROR* 	2015/08/06 - 15:38:59: Db->executeS() must be used only with select, show, explain or describe queries at line 503 in file classes/db/Db.php
+*ERROR* 	2015/08/06 - 15:39:02: Db->executeS() must be used only with select, show, explain or describe queries at line 503 in file classes/db/Db.php

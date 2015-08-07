@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2015-08-04 09:52:25
+<?php /* Smarty version Smarty-3.1.19, created on 2015-08-07 12:30:22
          compiled from "/var/www/html/paintings.loc/themes/paintings/pay-line.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:188598041255c07d4956ebf9-48821886%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:211880651255c496ce06af20-64094916%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '188598041255c07d4956ebf9-48821886',
+  'nocache_hash' => '211880651255c496ce06af20-64094916',
   'function' => 
   array (
   ),
@@ -21,9 +21,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_55c07d49583260_27826362',
+  'unifunc' => 'content_55c496ce07f732_96539915',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_55c07d49583260_27826362')) {function content_55c07d49583260_27826362($_smarty_tpl) {?><div class="pay-block centering">
+<?php if ($_valid && !is_callable('content_55c496ce07f732_96539915')) {function content_55c496ce07f732_96539915($_smarty_tpl) {?><div class="pay-block centering">
     <div class="pay-delivery-element clearfix">
         <div class="delivery-block">
             <div class="logo-shipping"><img src="<?php echo $_smarty_tpl->tpl_vars['img_dir']->value;?>

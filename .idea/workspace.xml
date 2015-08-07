@@ -2,19 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e93769cb-6872-4a50-a93d-1f4b6a58b5cd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/paintings.loc.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/smarty/cache/blockcategories/1/17/15/1/dd/56/e9/dd56e9ca1fe1c93348580af24eb9bea6d6afa7d5.blockcategories_footer.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/smarty/cache/blocknewproducts_home/20150803/1/17/c8/d4/de/c8d4de4b4fe661eaf6d5994d744a05dc13c3edeb.blocknewproducts_home.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/smarty/cache/blocknewproducts_tab/20150803/1/17/4d/4f/69/4d4f69ceeeacbeee48bf0be0cd10b91b3cdae04f.tab.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/smarty/cache/blocktopmenu/1/17/product/11/85/89/73/858973995690e68f56ab1ef19e030a41de241d66.blocktopmenu.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/smarty/cache/blocktopmenu/1/17/product/3/85/89/73/858973995690e68f56ab1ef19e030a41de241d66.blocktopmenu.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/smarty/cache/socialsharing/3/1/17/52/df/fe/52dffe04405c3d952664a6bf69c8acd168d5de31.socialsharing.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/smarty/cache/socialsharing_header/3/1/17/35/52/81/3552814b18033d5bbb728c1213e0e63c2b3a1ad9.socialsharing_header.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/smarty/compile/51/8c/d3/518cd3bbb621ca8c442efd2119e56e53f82fe39b.file.authentication.tpl.php" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/override/classes/Address.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/override/controllers/front/AddressController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/override/classes/Customer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/paintings/checkout-right-sidebar.tpl" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/smarty/cache/socialsharing/11/1/17/52/df/fe/52dffe04405c3d952664a6bf69c8acd168d5de31.socialsharing.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/smarty/cache/socialsharing_header/11/1/17/35/52/81/3552814b18033d5bbb728c1213e0e63c2b3a1ad9.socialsharing_header.tpl.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/03/ec/5f/03ec5fdee6570fa4bd38708c5e0406581f507b80.file.blockwishlist-extra.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/03/ec/5f/03ec5fdee6570fa4bd38708c5e0406581f507b80.file.blockwishlist-extra.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/0c/a8/94/0ca89418750d455d7a0fae58c4104c74a6313038.file.blocknewsletter.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/0c/a8/94/0ca89418750d455d7a0fae58c4104c74a6313038.file.blocknewsletter.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/0f/53/70/0f53703f5d72fc1c126c19501ebff1a1286c1592.file.shopping-cart.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/0f/53/70/0f53703f5d72fc1c126c19501ebff1a1286c1592.file.shopping-cart.tpl.php" />
@@ -26,7 +19,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/27/0c/bf/270cbf662a6dcbda8bb7960cb4691a388cabf796.file.searchcontent.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/27/0c/bf/270cbf662a6dcbda8bb7960cb4691a388cabf796.file.searchcontent.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/2d/74/1c/2d741c2289252492bd15cafd1de43d2795a2142d.file.help-block.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/2d/74/1c/2d741c2289252492bd15cafd1de43d2795a2142d.file.help-block.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/35/52/81/3552814b18033d5bbb728c1213e0e63c2b3a1ad9.file.socialsharing_header.tpl.cache.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/35/52/81/3552814b18033d5bbb728c1213e0e63c2b3a1ad9.file.socialsharing_header.tpl.cache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/cache/socialsharing_header/11/1/17/35/52/81/3552814b18033d5bbb728c1213e0e63c2b3a1ad9.socialsharing_header.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/cache/socialsharing_header/11/1/17/35/52/81/3552814b18033d5bbb728c1213e0e63c2b3a1ad9.socialsharing_header.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/37/43/cf/3743cf43331529ae3f239a702ca330c94b082576.file.nav.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/37/43/cf/3743cf43331529ae3f239a702ca330c94b082576.file.nav.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/cache/blocksocial/1/17/37/4e/b0/374eb0d44f230cde43817807d7ceb275a4251ce0.blocksocial.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/cache/blocksocial/1/17/37/4e/b0/374eb0d44f230cde43817807d7ceb275a4251ce0.blocksocial.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/cache/blocksocial/2/17/37/4e/b0/374eb0d44f230cde43817807d7ceb275a4251ce0.blocksocial.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/cache/blocksocial/2/17/37/4e/b0/374eb0d44f230cde43817807d7ceb275a4251ce0.blocksocial.tpl.php" />
@@ -43,7 +35,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/4d/4f/69/4d4f69ceeeacbeee48bf0be0cd10b91b3cdae04f.file.tab.tpl.cache.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/4d/4f/69/4d4f69ceeeacbeee48bf0be0cd10b91b3cdae04f.file.tab.tpl.cache.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/4f/cb/9f/4fcb9fc2bab1126f7b5740d6408a3bd5e99a670c.file.productcomments.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/4f/cb/9f/4fcb9fc2bab1126f7b5740d6408a3bd5e99a670c.file.productcomments.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/52/df/fe/52dffe04405c3d952664a6bf69c8acd168d5de31.file.socialsharing.tpl.cache.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/52/df/fe/52dffe04405c3d952664a6bf69c8acd168d5de31.file.socialsharing.tpl.cache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/cache/socialsharing/11/1/17/52/df/fe/52dffe04405c3d952664a6bf69c8acd168d5de31.socialsharing.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/cache/socialsharing/11/1/17/52/df/fe/52dffe04405c3d952664a6bf69c8acd168d5de31.socialsharing.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/57/77/ca/5777ca8c1d03389ca8982094e4263ee545d9c667.file.page_header_toolbar.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/57/77/ca/5777ca8c1d03389ca8982094e4263ee545d9c667.file.page_header_toolbar.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/59/94/ad/5994adf0b03708a2542e7b397eb4861d88b1ead1.file.passion-slider.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/59/94/ad/5994adf0b03708a2542e7b397eb4861d88b1ead1.file.passion-slider.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/59/9b/42/599b427818f9d2ccb0bc8989a188dbe3b8d92183.file.faqcontent.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/59/9b/42/599b427818f9d2ccb0bc8989a188dbe3b8d92183.file.faqcontent.tpl.php" />
@@ -75,6 +66,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/96/50/76/96507651e6e5b9ed7f394b009739544b12db7f3e.file.editorial.tpl.cache.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/96/50/76/96507651e6e5b9ed7f394b009739544b12db7f3e.file.editorial.tpl.cache.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/9a/70/f4/9a70f44d5d7377a0df4a9400cdedd4dff7d34fcb.file.banner-imgs.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/9a/70/f4/9a70f44d5d7377a0df4a9400cdedd4dff7d34fcb.file.banner-imgs.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/9e/45/1d/9e451d35caf3787fc70ddfc5373b9c8abb3bd7a3.file.layout.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/9e/45/1d/9e451d35caf3787fc70ddfc5373b9c8abb3bd7a3.file.layout.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/front/IdentityController.php" afterPath="$PROJECT_DIR$/controllers/front/IdentityController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/paypal/api/Results.txt" afterPath="$PROJECT_DIR$/modules/paypal/api/Results.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/a2/32/07/a23207e74cdc255c6b0c61c505c283ba2be6d7e1.file.blockuserinfo.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/a2/32/07/a23207e74cdc255c6b0c61c505c283ba2be6d7e1.file.blockuserinfo.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/a3/8e/eb/a38eebf04dfebf2bd4db12c54a12b54420bc64e4.file.blockpainterssearch-instantsearch.tpl.cache.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/a3/8e/eb/a38eebf04dfebf2bd4db12c54a12b54420bc64e4.file.blockpainterssearch-instantsearch.tpl.cache.php" />
@@ -84,27 +76,27 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/cache/blockfacebook/1/17/a6/e5/89/a6e58980b59c27aae8444358a91c3bacc874a36a.blockfacebook.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/cache/blockfacebook/1/17/a6/e5/89/a6e58980b59c27aae8444358a91c3bacc874a36a.blockfacebook.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/a6/e5/89/a6e58980b59c27aae8444358a91c3bacc874a36a.file.blockfacebook.tpl.cache.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/a6/e5/89/a6e58980b59c27aae8444358a91c3bacc874a36a.file.blockfacebook.tpl.cache.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/a7/a2/6d/a7a26dbf8cec1c099ef378ee8e17abeb074afcc4.file.express_checkout_payment.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/a7/a2/6d/a7a26dbf8cec1c099ef378ee8e17abeb074afcc4.file.express_checkout_payment.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/paintings/address.tpl" afterPath="$PROJECT_DIR$/themes/paintings/address.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/paintings/authentication.tpl" afterPath="$PROJECT_DIR$/themes/paintings/authentication.tpl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/b2/3b/75/b23b75f7b31f2206bb8196c54e03fbf56c35e410.file.notification_bt.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/b2/3b/75/b23b75f7b31f2206bb8196c54e03fbf56c35e410.file.notification_bt.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/b8/db/fd/b8dbfdd5c55ee3f2a9caeae00badd23fd202ef2c.file.order-carrier.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/b8/db/fd/b8dbfdd5c55ee3f2a9caeae00badd23fd202ef2c.file.order-carrier.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/cache/blockmyaccountfooter/1/17/bc/88/c5/bc88c52994947a29a2ca5f7a4c0b2f494b554b7f.blockmyaccountfooter.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/cache/blockmyaccountfooter/1/17/bc/88/c5/bc88c52994947a29a2ca5f7a4c0b2f494b554b7f.blockmyaccountfooter.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/cache/blockmyaccountfooter/2/17/bc/88/c5/bc88c52994947a29a2ca5f7a4c0b2f494b554b7f.blockmyaccountfooter.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/cache/blockmyaccountfooter/2/17/bc/88/c5/bc88c52994947a29a2ca5f7a4c0b2f494b554b7f.blockmyaccountfooter.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/bc/88/c5/bc88c52994947a29a2ca5f7a4c0b2f494b554b7f.file.blockmyaccountfooter.tpl.cache.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/bc/88/c5/bc88c52994947a29a2ca5f7a4c0b2f494b554b7f.file.blockmyaccountfooter.tpl.cache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/cache/blockbestsellers_home/1/17/bd/fd/e5/bdfde54505ffabf788d717a2d4b53e18e37ee7af.blockbestsellers-home.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/cache/blockbestsellers_home/1/17/bd/fd/e5/bdfde54505ffabf788d717a2d4b53e18e37ee7af.blockbestsellers-home.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/bd/fd/e5/bdfde54505ffabf788d717a2d4b53e18e37ee7af.file.blockbestsellers-home.tpl.cache.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/bd/fd/e5/bdfde54505ffabf788d717a2d4b53e18e37ee7af.file.blockbestsellers-home.tpl.cache.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/c0/9f/7c/c09f7cc81cf1be2c2efd24340975a926d75b8e28.file.tab.tpl.cache.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/c0/9f/7c/c09f7cc81cf1be2c2efd24340975a926d75b8e28.file.tab.tpl.cache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/cache/blockbestsellers_tab/1/17/c0/9f/7c/c09f7cc81cf1be2c2efd24340975a926d75b8e28.tab.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/cache/blockbestsellers_tab/1/17/c0/9f/7c/c09f7cc81cf1be2c2efd24340975a926d75b8e28.tab.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/c5/25/e9/c525e995a628395687de8c71b7b0abd27616ffee.file.header.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/c5/25/e9/c525e995a628395687de8c71b7b0abd27616ffee.file.header.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/c6/20/ea/c620ea2842a28a903839454dba3cc442b63df7d8.file.tab.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/c6/20/ea/c620ea2842a28a903839454dba3cc442b63df7d8.file.tab.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/c8/d4/de/c8d4de4b4fe661eaf6d5994d744a05dc13c3edeb.file.blocknewproducts_home.tpl.cache.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/c8/d4/de/c8d4de4b4fe661eaf6d5994d744a05dc13c3edeb.file.blocknewproducts_home.tpl.cache.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/cache/blockcategories/1/17/1/ca/c0/50/cac05037b1cf0a56e5c52d58ed4f1ddff4728082.blockcategories_tabs.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/cache/blockcategories/1/17/1/ca/c0/50/cac05037b1cf0a56e5c52d58ed4f1ddff4728082.blockcategories_tabs.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/ca/c0/50/cac05037b1cf0a56e5c52d58ed4f1ddff4728082.file.blockcategories_tabs.tpl.cache.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/ca/c0/50/cac05037b1cf0a56e5c52d58ed4f1ddff4728082.file.blockcategories_tabs.tpl.cache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/class_index.php" afterPath="$PROJECT_DIR$/cache/class_index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/d0/df/c6/d0dfc6a0457fcd45bfd5acbf60a13b414206e66e.file.homefeatured.tpl.cache.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/d0/df/c6/d0dfc6a0457fcd45bfd5acbf60a13b414206e66e.file.homefeatured.tpl.cache.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/cache/homefeatured/1/17/d0/df/c6/d0dfc6a0457fcd45bfd5acbf60a13b414206e66e.homefeatured.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/cache/homefeatured/1/17/d0/df/c6/d0dfc6a0457fcd45bfd5acbf60a13b414206e66e.homefeatured.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/cache/blockcms/2/1/17/d3/2d/79/d32d79eeb3f750f47165bd9fae1f34600cd9cf4e.blockcms.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/cache/blockcms/2/1/17/d3/2d/79/d32d79eeb3f750f47165bd9fae1f34600cd9cf4e.blockcms.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/cache/blockcms/2/2/17/d3/2d/79/d32d79eeb3f750f47165bd9fae1f34600cd9cf4e.blockcms.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/cache/blockcms/2/2/17/d3/2d/79/d32d79eeb3f750f47165bd9fae1f34600cd9cf4e.blockcms.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/d3/2d/79/d32d79eeb3f750f47165bd9fae1f34600cd9cf4e.file.blockcms.tpl.cache.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/d3/2d/79/d32d79eeb3f750f47165bd9fae1f34600cd9cf4e.file.blockcms.tpl.cache.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/d8/f6/9f/d8f69f685ea7958f83eb329d95d9bd495fc33513.file.reproduction-slider.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/d8/f6/9f/d8f69f685ea7958f83eb329d95d9bd495fc33513.file.reproduction-slider.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/gamification/data/data_EN_GBP_GB.json" afterPath="$PROJECT_DIR$/modules/gamification/data/data_EN_GBP_GB.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/cache/blockcategories/1/17/1/dd/56/e9/dd56e9ca1fe1c93348580af24eb9bea6d6afa7d5.blockcategories_footer.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/cache/blockcategories/1/17/1/dd/56/e9/dd56e9ca1fe1c93348580af24eb9bea6d6afa7d5.blockcategories_footer.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/cache/blockcategories/1/17/16/1/dd/56/e9/dd56e9ca1fe1c93348580af24eb9bea6d6afa7d5.blockcategories_footer.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/cache/blockcategories/1/17/16/1/dd/56/e9/dd56e9ca1fe1c93348580af24eb9bea6d6afa7d5.blockcategories_footer.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/cache/blockcategories/2/17/2/dd/56/e9/dd56e9ca1fe1c93348580af24eb9bea6d6afa7d5.blockcategories_footer.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/cache/blockcategories/2/17/2/dd/56/e9/dd56e9ca1fe1c93348580af24eb9bea6d6afa7d5.blockcategories_footer.tpl.php" />
@@ -123,9 +115,14 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/fc/13/77/fc13776a94be4fdc3da50b84f0d71549222af4f7.file.modal.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/fc/13/77/fc13776a94be4fdc3da50b84f0d71549222af4f7.file.modal.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/fd/4a/25/fd4a25da4e5aca25efb74c579438f0910df0edf5.file.express_checkout_shortcut_button.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/fd/4a/25/fd4a25da4e5aca25efb74c579438f0910df0edf5.file.express_checkout_shortcut_button.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/compile/fe/c9/7d/fec97db4aa9c673f04038b5a076d98548ff837c6.file.shopping-cart-product-line.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/compile/fe/c9/7d/fec97db4aa9c673f04038b5a076d98548ff837c6.file.shopping-cart-product-line.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/paintings/footer.tpl" afterPath="$PROJECT_DIR$/themes/paintings/footer.tpl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/paintings/css/global.css" afterPath="$PROJECT_DIR$/themes/paintings/css/global.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/paintings/header.tpl" afterPath="$PROJECT_DIR$/themes/paintings/header.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/paintings/identity.tpl" afterPath="$PROJECT_DIR$/themes/paintings/identity.tpl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/xml/modules_native_addons.xml" afterPath="$PROJECT_DIR$/config/xml/modules_native_addons.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/xml/must_have_modules_list.xml" afterPath="$PROJECT_DIR$/config/xml/must_have_modules_list.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/paintings/order-opc-new-account.tpl" afterPath="$PROJECT_DIR$/themes/paintings/order-opc-new-account.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/paintings/shopping-cart.tpl" afterPath="$PROJECT_DIR$/themes/paintings/shopping-cart.tpl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/xml/trusted_modules_list.xml" afterPath="$PROJECT_DIR$/config/xml/trusted_modules_list.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -146,47 +143,123 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
+  <component name="DatabaseView">
+    <option name="FLATTEN" value="false" />
+    <option name="GROUP_BY_TYPE" value="true" />
+    <option name="SORT_CHILDREN" value="false" />
+    <option name="SHOW_TABLE_CONSTRAINTS" value="true" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="paintings.loc" />
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="Customer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/override/classes/Customer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="21.083334" vertical-offset="1196" max-vertical-offset="1620">
+              <caret line="46" column="40" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllers/front/AuthController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.365385" vertical-offset="3308" max-vertical-offset="10590">
+              <caret line="276" column="0" selection-start-line="276" selection-start-column="0" selection-end-line="276" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderOpcController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/override/controllers/front/OrderOpcController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-13.041667" vertical-offset="1022" max-vertical-offset="5565">
+              <caret line="89" column="73" selection-start-line="89" selection-start-column="73" selection-end-line="89" selection-end-column="73" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="order-opc-new-account.tpl" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/themes/paintings/order-opc-new-account.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.015625" vertical-offset="0" max-vertical-offset="6915">
+              <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#fieldset#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#fieldset#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#fieldset#0;n#form#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#9;n#div#1;n#div#0;n#fieldset#0;n#form#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#20;n#div#1;n#div#0;n#fieldset#0;n#form#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#28;n#div#1;n#div#0;n#fieldset#0;n#form#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#12;n#div#28;n#div#1;n#div#0;n#fieldset#0;n#form#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#30;n#div#1;n#div#0;n#fieldset#0;n#form#1;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="checkout-right-sidebar.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/paintings/checkout-right-sidebar.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="315">
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="free-shiping.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/paintings/free-shiping.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="165">
+              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/paintings/header.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-15.0" vertical-offset="750" max-vertical-offset="2655">
+              <caret line="74" column="64" selection-start-line="74" selection-start-column="64" selection-end-line="74" selection-end-column="64" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="global.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/paintings/css/global.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="139451" max-vertical-offset="140370">
-              <caret line="9349" column="16" selection-start-line="9349" selection-start-column="16" selection-end-line="9349" selection-end-column="16" />
+            <state vertical-scroll-proportion="-20.214285" vertical-offset="140029" max-vertical-offset="141690">
+              <caret line="9373" column="1" selection-start-line="9373" selection-start-column="1" selection-end-line="9373" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="payment.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/paypal/express_checkout/payment.php">
+      <file leaf-file-name="footer.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/paintings/footer.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2962" max-vertical-offset="5850">
-              <caret line="236" column="47" selection-start-line="236" selection-start-column="47" selection-end-line="236" selection-end-column="47" />
+            <state vertical-scroll-proportion="-21.875" vertical-offset="0" max-vertical-offset="1545">
+              <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="process.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/paypal/express_checkout/process.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="6457" max-vertical-offset="8010">
-              <caret line="465" column="5" selection-start-line="465" selection-start-column="5" selection-end-line="465" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="order-opc.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="order-opc.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/paintings/js/order-opc.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="15285">
-              <caret line="22" column="60" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1901" max-vertical-offset="14940">
+              <caret line="281" column="50" selection-start-line="281" selection-start-column="50" selection-end-line="281" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -200,19 +273,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/themes/paintings/css/product_list.css" />
-        <option value="$PROJECT_DIR$/override/controllers/front/FrontController.php" />
-        <option value="$PROJECT_DIR$/modules/blockpainterssearch/blockpainterssearch.php" />
-        <option value="$PROJECT_DIR$/themes/paintings/search.tpl" />
-        <option value="$PROJECT_DIR$/override/classes/Search.php" />
-        <option value="$PROJECT_DIR$/modules/blockpainterssearch/override/classes/Search.php" />
-        <option value="$PROJECT_DIR$/override/controllers/front/SearchController.php" />
-        <option value="$PROJECT_DIR$/modules/blockpainterssearch/override/controllers/front/SearchController.php" />
-        <option value="$PROJECT_DIR$/themes/paintings/modules/blocknewproducts/blocknewproducts.tpl" />
-        <option value="$PROJECT_DIR$/themes/paintings/modules/blocknewproducts/blocknewproducts_home.tpl" />
-        <option value="$PROJECT_DIR$/themes/paintings/modules/blocknewproducts/tab.tpl" />
-        <option value="$PROJECT_DIR$/modules/blockviewed/blockviewed.php" />
-        <option value="$PROJECT_DIR$/modules/blocknewproducts/blocknewproducts.php" />
         <option value="$PROJECT_DIR$/themes/paintings/modules/blockviewed/blockviewed.tpl" />
         <option value="$PROJECT_DIR$/modules/blocknewproducts/views/templates/hook/blockrandomproducts.tpl" />
         <option value="$PROJECT_DIR$/themes/paintings/product-shiping.tpl" />
@@ -242,15 +302,28 @@
         <option value="$PROJECT_DIR$/themes/paintings/order-address-multishipping-products.tpl" />
         <option value="$PROJECT_DIR$/themes/paintings/order-payment.tpl" />
         <option value="$PROJECT_DIR$/themes/paintings/order-return.tpl" />
-        <option value="$PROJECT_DIR$/themes/paintings/order-opc-new-account.tpl" />
         <option value="$PROJECT_DIR$/themes/paintings/order-carrier.tpl" />
-        <option value="$PROJECT_DIR$/themes/paintings/shopping-cart.tpl" />
-        <option value="$PROJECT_DIR$/themes/paintings/footer.tpl" />
-        <option value="$PROJECT_DIR$/themes/paintings/header.tpl" />
         <option value="$PROJECT_DIR$/config/settings.inc.php" />
         <option value="$PROJECT_DIR$/themes/paintings/js/order-opc.js" />
-        <option value="$PROJECT_DIR$/themes/paintings/css/global.css" />
         <option value="$PROJECT_DIR$/modules/paypal/express_checkout/process.php" />
+        <option value="$PROJECT_DIR$/themes/paintings/shopping-cart.tpl" />
+        <option value="$PROJECT_DIR$/classes/Address.php" />
+        <option value="$PROJECT_DIR$/classes/Cart.php" />
+        <option value="$PROJECT_DIR$/controllers/front/OrderOpcController.php" />
+        <option value="$PROJECT_DIR$/override/classes/Address.php" />
+        <option value="$PROJECT_DIR$/classes/Customer.php" />
+        <option value="$PROJECT_DIR$/override/classes/Customer.php" />
+        <option value="$PROJECT_DIR$/themes/paintings/identity.tpl" />
+        <option value="$PROJECT_DIR$/themes/paintings/authentication.tpl" />
+        <option value="$PROJECT_DIR$/themes/paintings/address.tpl" />
+        <option value="$PROJECT_DIR$/override/controllers/front/AddressController.php" />
+        <option value="$PROJECT_DIR$/controllers/front/IdentityController.php" />
+        <option value="$PROJECT_DIR$/themes/paintings/checkout-right-sidebar.tpl" />
+        <option value="$PROJECT_DIR$/themes/paintings/footer.tpl" />
+        <option value="$PROJECT_DIR$/themes/paintings/header.tpl" />
+        <option value="$PROJECT_DIR$/themes/paintings/css/global.css" />
+        <option value="$PROJECT_DIR$/override/controllers/front/OrderOpcController.php" />
+        <option value="$PROJECT_DIR$/themes/paintings/order-opc-new-account.tpl" />
       </list>
     </option>
   </component>
@@ -275,9 +348,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
+    <option name="x" value="-1" />
     <option name="y" value="25" />
-    <option name="width" value="1920" />
-    <option name="height" value="1055" />
+    <option name="width" value="1922" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -379,15 +453,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="paintings" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="tests" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -401,7 +467,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
+              <option name="myItemId" value="override" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -415,11 +481,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
+              <option name="myItemId" value="override" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="paypal" />
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -433,15 +499,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
+              <option name="myItemId" value="override" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="paypal" />
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="express_checkout" />
+              <option name="myItemId" value="front" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -557,28 +623,28 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
+    <frame x="-1" y="25" width="1922" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932165" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20181043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969433" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14749734" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25301206" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.47921225" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2560175" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.59080964" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -605,24 +671,42 @@
           <line>308</line>
           <option name="timeStamp" value="174" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/override/classes/Customer.php</url>
+          <line>61</line>
+          <option name="timeStamp" value="288" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/override/controllers/front/OrderOpcController.php</url>
+          <line>87</line>
+          <option name="timeStamp" value="316" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/themes/paintings/js/order-opc.js</url>
+          <line>157</line>
+          <option name="timeStamp" value="235" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="231" />
+      <option name="time" value="317" />
     </breakpoint-manager>
     <watches-manager>
+      <configuration name="index.php">
+        <watch expression="Tools::getValue('id_address_delivery')" />
+        <watch expression="$e-&gt;displayMessage()" />
+      </configuration>
       <configuration name="payment.php">
         <watch expression="$this-&gt;result" />
       </configuration>
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/themes/paintings/css/global.css">
+    <entry file="file://$PROJECT_DIR$/classes/Gender.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="139451" max-vertical-offset="140370">
-          <caret line="9349" column="16" selection-start-line="9349" selection-start-column="16" selection-end-line="9349" selection-end-column="16" />
-          <folding />
+        <state vertical-scroll-proportion="0.5895954" vertical-offset="0" max-vertical-offset="865">
+          <caret line="57" column="30" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -630,124 +714,453 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2962" max-vertical-offset="5850">
           <caret line="236" column="47" selection-start-line="236" selection-start-column="47" selection-end-line="236" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/front/AddressesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.916666" vertical-offset="500" max-vertical-offset="1365">
+          <caret line="85" column="23" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/tax/TaxManagerFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8006329" vertical-offset="604" max-vertical-offset="1260">
+          <caret line="97" column="27" selection-start-line="97" selection-start-column="27" selection-end-line="97" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/paintings/order-detail.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4433657" vertical-offset="1541" max-vertical-offset="7140">
+          <caret line="121" column="16" selection-start-line="121" selection-start-column="16" selection-end-line="121" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/paintings/order-opc.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5291262" vertical-offset="768" max-vertical-offset="1815">
+          <caret line="73" column="37" selection-start-line="73" selection-start-column="37" selection-end-line="73" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/paintings/shopping-cart.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="8163" max-vertical-offset="8985">
+          <caret line="564" column="14" selection-start-line="564" selection-start-column="14" selection-end-line="564" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/Store.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.9924242" vertical-offset="0" max-vertical-offset="1725">
+          <caret line="102" column="19" selection-start-line="102" selection-start-column="18" selection-end-line="102" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/PaymentModule.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="22.480417" vertical-offset="0" max-vertical-offset="14595">
+          <caret line="597" column="58" selection-start-line="597" selection-start-column="50" selection-end-line="597" selection-end-column="58" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/paypal/express_checkout/process.php">
+    <entry file="file:///usr/share/phpmyadmin/sql.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="6457" max-vertical-offset="8010">
-          <caret line="465" column="5" selection-start-line="465" selection-start-column="5" selection-end-line="465" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.3514151" vertical-offset="46" max-vertical-offset="26190">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/alias.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33254716" vertical-offset="489" max-vertical-offset="1080">
+          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/ObjectModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.4423077" vertical-offset="8618" max-vertical-offset="25575">
+          <caret line="606" column="0" selection-start-line="606" selection-start-column="0" selection-end-line="606" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/paintings/js/order-opc.js">
+    <entry file="file://$PROJECT_DIR$/themes/paintings/js/cart-summary.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="14940">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2396" max-vertical-offset="15210">
+          <caret line="200" column="20" selection-start-line="200" selection-start-column="20" selection-end-line="200" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/CartRule.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3462783" vertical-offset="4211" max-vertical-offset="19380">
+          <caret line="318" column="27" selection-start-line="318" selection-start-column="27" selection-end-line="318" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/Manufacturer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.64342314" vertical-offset="6179" max-vertical-offset="6810">
+          <caret line="462" column="25" selection-start-line="462" selection-start-column="25" selection-end-line="462" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/admin/AdminOrdersController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-22.333334" vertical-offset="274" max-vertical-offset="41115">
+          <caret line="77" column="60" selection-start-line="77" selection-start-column="60" selection-end-line="77" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/override/classes/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="448">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/override/classes/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1935">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/override/controllers/front/FrontController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="26.708334" vertical-offset="641" max-vertical-offset="1065">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/Cart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.916667" vertical-offset="11321" max-vertical-offset="57465">
+          <caret line="792" column="19" selection-start-line="792" selection-start-column="19" selection-end-line="792" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/module/Module.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.583333" vertical-offset="27844" max-vertical-offset="40785">
+          <caret line="1893" column="20" selection-start-line="1893" selection-start-column="20" selection-end-line="1893" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/controller/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22345483" vertical-offset="2139" max-vertical-offset="7680">
+          <caret line="175" column="0" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/order/Order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="17659" max-vertical-offset="31350">
+          <caret line="1214" column="16" selection-start-line="1214" selection-start-column="16" selection-end-line="1214" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/override/controllers/front/ProductController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="448">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/override/classes/Product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="297" max-vertical-offset="915">
+          <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="73" />
+          <folding>
+            <marker date="1438606110101" expanded="true" signature="-1:-1" placeholder="SELECT posit.._DB_PREFIX_category_product WHERE..." />
+            <marker date="1438606110101" expanded="true" signature="-1:-1" placeholder="SELECT cp.id.._DB_PREFIX_category_product cp..." />
+            <marker date="1438606110101" expanded="true" signature="-1:-1" placeholder="SELECT cp.id.._DB_PREFIX_category_product cp..." />
+            <marker date="1438606110101" expanded="true" signature="-1:-1" placeholder="SELECT relat.._DB_PREFIX_category_lang WHERE..." />
+            <marker date="1438606110101" expanded="true" signature="-1:-1" placeholder="SELECT cat.i.._DB_PREFIX_category cat..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/override/controllers/front/SearchController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.36542922" vertical-offset="315" max-vertical-offset="1470">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/paintings/css/global.css">
+    <entry file="file://$PROJECT_DIR$/classes/Dispatcher.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="139451" max-vertical-offset="140370">
-          <caret line="9349" column="16" selection-start-line="9349" selection-start-column="16" selection-end-line="9349" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.41647333" vertical-offset="4921" max-vertical-offset="12900">
+          <caret line="375" column="9" selection-start-line="375" selection-start-column="9" selection-end-line="375" selection-end-column="9" />
+          <folding>
+            <marker date="1438605948337" expanded="true" signature="-1:-1" placeholder="SELECT m.pag..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/Customer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.83693045" vertical-offset="10402" max-vertical-offset="13050">
+          <caret line="763" column="29" selection-start-line="763" selection-start-column="29" selection-end-line="763" selection-end-column="29" />
+          <folding>
+            <marker date="1438930814848" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1438930814848" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1438930814848" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1438930814848" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1438930814848" expanded="true" signature="-1:-1" placeholder="SELECT id_ca.._DB_PREFIX_cart&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;WHERE..." />
+            <marker date="1438930814848" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1438930814848" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1438930814848" expanded="true" signature="-1:-1" placeholder="SELECT id_cu.._DB_PREFIX_customer_thread&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;WHERE..." />
+            <marker date="1438930814848" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1438930814848" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1438930814848" expanded="true" signature="-1:-1" placeholder="SELECT `id_c..." />
+            <marker date="1438930814848" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
+            <marker date="1438930814848" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
+            <marker date="1438930814848" expanded="true" signature="-1:-1" placeholder="SELECT `id_c..." />
+            <marker date="1438930814848" expanded="true" signature="-1:-1" placeholder="SELECT `id_c..." />
+            <marker date="1438930814848" expanded="true" signature="-1:-1" placeholder="SELECT `id_a..." />
+            <marker date="1438930814848" expanded="true" signature="-1:-1" placeholder="SELECT DISTI..." />
+            <marker date="1438930814848" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..." />
+            <marker date="1438930814848" expanded="true" signature="-1:-1" placeholder="SELECT `id_c..." />
+            <marker date="1438930814848" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
+            <marker date="1438930814848" expanded="true" signature="-1:-1" placeholder="SELECT DISTI..." />
+            <marker date="1438930814848" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..." />
+            <marker date="1438930814848" expanded="true" signature="-1:-1" placeholder="SELECT MAX(c..." />
+            <marker date="1438930814848" expanded="true" signature="-1:-1" placeholder="SELECT (YEAR..." />
+            <marker date="1438930814848" expanded="true" signature="-1:-1" placeholder="SELECT m.*, ..." />
+            <marker date="1438930814848" expanded="true" signature="-1:-1" placeholder="SELECT c.dat..." />
+            <marker date="1438930814848" expanded="true" signature="-1:-1" placeholder="SELECT `id_c..." />
+            <marker date="1438930814848" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1438930814848" expanded="true" signature="-1:-1" placeholder="SELECT cg.`i..." />
+            <marker date="1438930814848" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
+            <marker date="1438930814848" expanded="true" signature="-1:-1" placeholder="SELECT `id_d..." />
+            <marker date="1438930814848" expanded="true" signature="-1:-1" placeholder="SELECT `id_a..." />
+            <marker date="1438930814848" expanded="true" signature="-1:-1" placeholder="SELECT cg.`i..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/paintings/identity.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.8461537" vertical-offset="897" max-vertical-offset="3570">
+          <caret line="87" column="47" selection-start-line="87" selection-start-column="47" selection-end-line="87" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/paypal/express_checkout/payment.php">
+    <entry file="file://$PROJECT_DIR$/themes/paintings/authentication.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5850">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-6.4038463" vertical-offset="4557" max-vertical-offset="10950">
+          <caret line="326" column="93" selection-start-line="326" selection-start-column="93" selection-end-line="326" selection-end-column="93" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#form#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#10;n#div#0;n#div#0;n#form#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#23;n#div#0;n#div#0;n#form#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#12;n#div#23;n#div#0;n#div#0;n#form#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#form#1;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/Address.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.5" vertical-offset="2223" max-vertical-offset="6075">
+          <caret line="180" column="0" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
+          <folding>
+            <marker date="1438605948541" expanded="true" signature="-1:-1" placeholder="SELECT s.`id..." />
+            <marker date="1438605948541" expanded="true" signature="-1:-1" placeholder="SELECT c.`ac..." />
+            <marker date="1438605948541" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..." />
+            <marker date="1438605948541" expanded="true" signature="-1:-1" placeholder="SELECT `id_c..." />
+            <marker date="1438605948541" expanded="true" signature="-1:-1" placeholder="SELECT `id_a..." />
+            <marker date="1438605948541" expanded="true" signature="-1:-1" placeholder="SELECT `id_a..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/paintings/address.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.711538" vertical-offset="957" max-vertical-offset="3810">
+          <caret line="94" column="70" selection-start-line="94" selection-start-column="70" selection-end-line="94" selection-end-column="70" />
+          <folding>
+            <marker date="1438933818519" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1438933818519" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1438933818519" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/front/AddressController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.1436031" vertical-offset="1047" max-vertical-offset="5280">
+          <caret line="122" column="17" selection-start-line="122" selection-start-column="17" selection-end-line="122" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/paypal/express_checkout/process.php">
+    <entry file="file://$PROJECT_DIR$/config/defines.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="6457" max-vertical-offset="8010">
-          <caret line="465" column="5" selection-start-line="465" selection-start-column="5" selection-end-line="465" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.18939394" vertical-offset="0" max-vertical-offset="2715">
+          <caret line="28" column="21" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="21" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/paintings/js/order-opc.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1125" max-vertical-offset="15285">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/paintings/css/global.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="139301" max-vertical-offset="140280">
-          <caret line="9307" column="1" selection-start-line="9307" selection-start-column="1" selection-end-line="9307" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/paintings/js/order-opc.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="15285">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/share/phpmyadmin/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32119915" vertical-offset="0" max-vertical-offset="9375">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/settings.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22595596" vertical-offset="0" max-vertical-offset="863">
-          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/paintings/js/tools/statesManagement.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33258173" vertical-offset="485" max-vertical-offset="2160">
-          <caret line="75" column="9" selection-start-line="75" selection-start-column="9" selection-end-line="75" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/paintings/css/global.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="139451" max-vertical-offset="140370">
-          <caret line="9349" column="16" selection-start-line="9349" selection-start-column="16" selection-end-line="9349" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.2476415" vertical-offset="0" max-vertical-offset="424">
+          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/paypal/express_checkout/process.php">
+    <entry file="file://$PROJECT_DIR$/classes/db/Db.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="6457" max-vertical-offset="8010">
-          <caret line="465" column="5" selection-start-line="465" selection-start-column="5" selection-end-line="465" selection-end-column="5" />
+        <state vertical-scroll-proportion="-11.5188675" vertical-offset="8979" max-vertical-offset="11055">
+          <caret line="296" column="18" selection-start-line="296" selection-start-column="18" selection-end-line="296" selection-end-column="18" />
+          <folding>
+            <marker date="1438605951597" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/override/classes/Address.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.75" vertical-offset="270" max-vertical-offset="885">
+          <caret line="24" column="113" selection-start-line="24" selection-start-column="113" selection-end-line="24" selection-end-column="113" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/paypal/express_checkout/payment.php">
+    <entry file="file://$PROJECT_DIR$/override/controllers/front/AddressController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2962" max-vertical-offset="5850">
-          <caret line="236" column="47" selection-start-line="236" selection-start-column="47" selection-end-line="236" selection-end-column="47" />
+        <state vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="345">
+          <caret line="14" column="35" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/default-bootstrap/js/order-opc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="6.448276" vertical-offset="495" max-vertical-offset="14565">
+          <caret line="243" column="41" selection-start-line="243" selection-start-column="41" selection-end-line="243" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/front/OrderOpcController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-420.0" vertical-offset="0" max-vertical-offset="10470">
+          <caret line="695" column="0" selection-start-line="695" selection-start-column="0" selection-end-line="695" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/front/IdentityController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-24.51923" vertical-offset="0" max-vertical-offset="2190">
+          <caret line="108" column="91" selection-start-line="108" selection-start-column="91" selection-end-line="108" selection-end-column="91" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/override/classes/Customer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="21.083334" vertical-offset="1196" max-vertical-offset="1620">
+          <caret line="46" column="40" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/front/AuthController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.365385" vertical-offset="3308" max-vertical-offset="10590">
+          <caret line="276" column="0" selection-start-line="276" selection-start-column="0" selection-end-line="276" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/paintings/js/order-opc.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="15285">
-          <caret line="22" column="60" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1901" max-vertical-offset="14940">
+          <caret line="281" column="50" selection-start-line="281" selection-start-column="50" selection-end-line="281" selection-end-column="50" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/paintings/free-shiping.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="165">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/paintings/footer.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-21.875" vertical-offset="0" max-vertical-offset="1545">
+          <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/paintings/header.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.0" vertical-offset="750" max-vertical-offset="2655">
+          <caret line="74" column="64" selection-start-line="74" selection-start-column="64" selection-end-line="74" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/paintings/css/global.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.214285" vertical-offset="140029" max-vertical-offset="141690">
+          <caret line="9373" column="1" selection-start-line="9373" selection-start-column="1" selection-end-line="9373" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/override/controllers/front/OrderOpcController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.041667" vertical-offset="1022" max-vertical-offset="5565">
+          <caret line="89" column="73" selection-start-line="89" selection-start-column="73" selection-end-line="89" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/paintings/checkout-right-sidebar.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="315">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/paintings/order-opc-new-account.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.015625" vertical-offset="0" max-vertical-offset="6915">
+          <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#fieldset#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#fieldset#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#fieldset#0;n#form#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#9;n#div#1;n#div#0;n#fieldset#0;n#form#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#20;n#div#1;n#div#0;n#fieldset#0;n#form#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#28;n#div#1;n#div#0;n#fieldset#0;n#form#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#12;n#div#28;n#div#1;n#div#0;n#fieldset#0;n#form#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#30;n#div#1;n#div#0;n#fieldset#0;n#form#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

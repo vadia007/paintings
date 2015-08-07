@@ -1,26 +1,25 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2015-08-04 09:52:43
+<?php /* Smarty version Smarty-3.1.19, created on 2015-08-07 12:30:46
          compiled from "/var/www/html/paintings.loc/themes/paintings/shopping-cart.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:199209961455c07d5be6f362-45785286%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:102416188555c496e684d237-18575889%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '0f53703f5d72fc1c126c19501ebff1a1286c1592' => 
     array (
       0 => '/var/www/html/paintings.loc/themes/paintings/shopping-cart.tpl',
-      1 => 1438606135,
+      1 => 1438763396,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '199209961455c07d5be6f362-45785286',
+  'nocache_hash' => '102416188555c496e684d237-18575889',
   'function' => 
   array (
   ),
   'variables' => 
   array (
+    'account_created' => 0,
     'empty' => 0,
     'PS_CATALOG_MODE' => 0,
-    'productNumber' => 0,
-    'account_created' => 0,
     'lastProductAdded' => 0,
     'link' => 0,
     'total_discounts' => 0,
@@ -36,19 +35,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'total_shipping_tax_exc' => 0,
     'virtualCart' => 0,
     'total_shipping' => 0,
-    'voucherAllowed' => 0,
-    'errors_discount' => 0,
-    'error' => 0,
-    'opc' => 0,
-    'discount_name' => 0,
-    'displayVouchers' => 0,
-    'voucher' => 0,
-    'col_span_subtotal' => 0,
     'display_tax_label' => 0,
-    'total_products' => 0,
-    'total_products_wt' => 0,
     'total_wrapping_tax_exc' => 0,
+    'opc' => 0,
     'cart' => 0,
+    'col_span_subtotal' => 0,
     'total_discounts_tax_exc' => 0,
     'total_discounts_negative' => 0,
     'total_price_without_tax' => 0,
@@ -101,9 +92,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_55c07d5c4c5910_49679924',
+  'unifunc' => 'content_55c496e6dafa05_09758618',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_55c07d5c4c5910_49679924')) {function content_55c07d5c4c5910_49679924($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_regex_replace')) include '/var/www/html/paintings.loc/tools/smarty/plugins/modifier.regex_replace.php';
+<?php if ($_valid && !is_callable('content_55c496e6dafa05_09758618')) {function content_55c496e6dafa05_09758618($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_regex_replace')) include '/var/www/html/paintings.loc/tools/smarty/plugins/modifier.regex_replace.php';
 ?>
 
 <?php $_smarty_tpl->_capture_stack[0][] = array('path', null, null); ob_start(); ?><?php echo smartyTranslate(array('s'=>'Your shopping cart'),$_smarty_tpl);?>
@@ -113,19 +104,20 @@ if (!empty($_capture_buffer)) {
  if (isset( $_capture_append)) $_smarty_tpl->append( $_capture_append, ob_get_contents());
  Smarty::$_smarty_vars['capture'][$_capture_buffer]=ob_get_clean();
 } else $_smarty_tpl->capture_error();?>
-
-<h1 id="cart_title" class="page-heading"><?php echo smartyTranslate(array('s'=>'Shopping-cart summary'),$_smarty_tpl);?>
-
-	<?php if (!isset($_smarty_tpl->tpl_vars['empty']->value)&&!$_smarty_tpl->tpl_vars['PS_CATALOG_MODE']->value) {?>
-		<span class="heading-counter"><?php echo smartyTranslate(array('s'=>'Your shopping cart contains:'),$_smarty_tpl);?>
-
-			<span id="summary_products_quantity"><?php echo $_smarty_tpl->tpl_vars['productNumber']->value;?>
- <?php if ($_smarty_tpl->tpl_vars['productNumber']->value==1) {?><?php echo smartyTranslate(array('s'=>'product'),$_smarty_tpl);?>
-<?php } else { ?><?php echo smartyTranslate(array('s'=>'products'),$_smarty_tpl);?>
-<?php }?></span>
-		</span>
-	<?php }?>
+<div class="checkout-page-title">
+	<h1><?php echo smartyTranslate(array('s'=>'Checkout Passion For Paintings'),$_smarty_tpl);?>
 </h1>
+	<div class="checkout-sub-page-title">
+		<?php echo smartyTranslate(array('s'=>'The Paintings you are ordering:'),$_smarty_tpl);?>
+
+	</div>
+</div>
+	
+		
+			
+		
+	
+
 
 <?php if (isset($_smarty_tpl->tpl_vars['account_created']->value)) {?>
 	<p class="alert alert-success">
@@ -236,181 +228,107 @@ if (!empty($_capture_buffer)) {
 					<?php }?>
 				<?php }?>
 
-				<?php if ($_smarty_tpl->tpl_vars['use_taxes']->value) {?>
-					<?php if ($_smarty_tpl->tpl_vars['priceDisplay']->value) {?>
-						<tr class="cart_total_price">
-							<td rowspan="<?php echo $_smarty_tpl->tpl_vars['rowspan_total']->value;?>
-" colspan="3" id="cart_voucher" class="cart_voucher">
-								<?php if ($_smarty_tpl->tpl_vars['voucherAllowed']->value) {?>
-									<?php if (isset($_smarty_tpl->tpl_vars['errors_discount']->value)&&$_smarty_tpl->tpl_vars['errors_discount']->value) {?>
-										<ul class="alert alert-danger">
-											<?php  $_smarty_tpl->tpl_vars['error'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['error']->_loop = false;
- $_smarty_tpl->tpl_vars['k'] = new Smarty_Variable;
- $_from = $_smarty_tpl->tpl_vars['errors_discount']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
-foreach ($_from as $_smarty_tpl->tpl_vars['error']->key => $_smarty_tpl->tpl_vars['error']->value) {
-$_smarty_tpl->tpl_vars['error']->_loop = true;
- $_smarty_tpl->tpl_vars['k']->value = $_smarty_tpl->tpl_vars['error']->key;
-?>
-												<li><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['error']->value, ENT_QUOTES, 'UTF-8', true);?>
-</li>
-											<?php } ?>
-										</ul>
-									<?php }?>
-									<form action="<?php if ($_smarty_tpl->tpl_vars['opc']->value) {?><?php echo $_smarty_tpl->tpl_vars['link']->value->getPageLink('order-opc',true);?>
-<?php } else { ?><?php echo $_smarty_tpl->tpl_vars['link']->value->getPageLink('order',true);?>
-<?php }?>" method="post" id="voucher">
-										<fieldset>
-											<h4><?php echo smartyTranslate(array('s'=>'Vouchers'),$_smarty_tpl);?>
-</h4>
-											<input type="text" class="discount_name form-control" id="discount_name" name="discount_name" value="<?php if (isset($_smarty_tpl->tpl_vars['discount_name']->value)&&$_smarty_tpl->tpl_vars['discount_name']->value) {?><?php echo $_smarty_tpl->tpl_vars['discount_name']->value;?>
-<?php }?>" />
-											<input type="hidden" name="submitDiscount" />
-											<button type="submit" name="submitAddDiscount" class="button btn btn-default button-small"><span><?php echo smartyTranslate(array('s'=>'OK'),$_smarty_tpl);?>
-</span></button>
-										</fieldset>
-									</form>
-									<?php if ($_smarty_tpl->tpl_vars['displayVouchers']->value) {?>
-										<p id="title" class="title-offers"><?php echo smartyTranslate(array('s'=>'Take advantage of our exclusive offers:'),$_smarty_tpl);?>
-</p>
-										<div id="display_cart_vouchers">
-											<?php  $_smarty_tpl->tpl_vars['voucher'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['voucher']->_loop = false;
- $_from = $_smarty_tpl->tpl_vars['displayVouchers']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
-foreach ($_from as $_smarty_tpl->tpl_vars['voucher']->key => $_smarty_tpl->tpl_vars['voucher']->value) {
-$_smarty_tpl->tpl_vars['voucher']->_loop = true;
-?>
-												<?php if ($_smarty_tpl->tpl_vars['voucher']->value['code']!='') {?><span class="voucher_name" data-code="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['voucher']->value['code'], ENT_QUOTES, 'UTF-8', true);?>
-"><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['voucher']->value['code'], ENT_QUOTES, 'UTF-8', true);?>
-</span> - <?php }?><?php echo $_smarty_tpl->tpl_vars['voucher']->value['name'];?>
-<br />
-											<?php } ?>
-										</div>
-									<?php }?>
-								<?php }?>
-							</td>
-							<td colspan="<?php echo $_smarty_tpl->tpl_vars['col_span_subtotal']->value;?>
-" class="text-right"><?php if ($_smarty_tpl->tpl_vars['display_tax_label']->value) {?><?php echo smartyTranslate(array('s'=>'Total products (tax excl.)'),$_smarty_tpl);?>
-<?php } else { ?><?php echo smartyTranslate(array('s'=>'Total products'),$_smarty_tpl);?>
-<?php }?></td>
-							<td colspan="2" class="price" id="total_product"><?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['displayPrice'][0][0]->displayPriceSmarty(array('price'=>$_smarty_tpl->tpl_vars['total_products']->value),$_smarty_tpl);?>
-</td>
-						</tr>
-					<?php } else { ?>
-						<tr class="cart_total_price">
-							<td rowspan="<?php echo $_smarty_tpl->tpl_vars['rowspan_total']->value;?>
-" colspan="2" id="cart_voucher" class="cart_voucher">
-								<?php if ($_smarty_tpl->tpl_vars['voucherAllowed']->value) {?>
-									<?php if (isset($_smarty_tpl->tpl_vars['errors_discount']->value)&&$_smarty_tpl->tpl_vars['errors_discount']->value) {?>
-										<ul class="alert alert-danger">
-											<?php  $_smarty_tpl->tpl_vars['error'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['error']->_loop = false;
- $_smarty_tpl->tpl_vars['k'] = new Smarty_Variable;
- $_from = $_smarty_tpl->tpl_vars['errors_discount']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
-foreach ($_from as $_smarty_tpl->tpl_vars['error']->key => $_smarty_tpl->tpl_vars['error']->value) {
-$_smarty_tpl->tpl_vars['error']->_loop = true;
- $_smarty_tpl->tpl_vars['k']->value = $_smarty_tpl->tpl_vars['error']->key;
-?>
-												<li><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['error']->value, ENT_QUOTES, 'UTF-8', true);?>
-</li>
-											<?php } ?>
-										</ul>
-									<?php }?>
-									<form action="<?php if ($_smarty_tpl->tpl_vars['opc']->value) {?><?php echo $_smarty_tpl->tpl_vars['link']->value->getPageLink('order-opc',true);?>
-<?php } else { ?><?php echo $_smarty_tpl->tpl_vars['link']->value->getPageLink('order',true);?>
-<?php }?>" method="post" id="voucher">
-										<fieldset>
-											<h4><?php echo smartyTranslate(array('s'=>'Vouchers'),$_smarty_tpl);?>
-</h4>
-											<input type="text" class="discount_name form-control" id="discount_name" name="discount_name" value="<?php if (isset($_smarty_tpl->tpl_vars['discount_name']->value)&&$_smarty_tpl->tpl_vars['discount_name']->value) {?><?php echo $_smarty_tpl->tpl_vars['discount_name']->value;?>
-<?php }?>" />
-											<input type="hidden" name="submitDiscount" />
-											<button type="submit" name="submitAddDiscount" class="button btn btn-default button-small"><span><?php echo smartyTranslate(array('s'=>'OK'),$_smarty_tpl);?>
-</span></button>
-										</fieldset>
-									</form>
-									<?php if ($_smarty_tpl->tpl_vars['displayVouchers']->value) {?>
-										<p id="title" class="title-offers"><?php echo smartyTranslate(array('s'=>'Take advantage of our exclusive offers:'),$_smarty_tpl);?>
-</p>
-										<div id="display_cart_vouchers">
-											<?php  $_smarty_tpl->tpl_vars['voucher'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['voucher']->_loop = false;
- $_from = $_smarty_tpl->tpl_vars['displayVouchers']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
-foreach ($_from as $_smarty_tpl->tpl_vars['voucher']->key => $_smarty_tpl->tpl_vars['voucher']->value) {
-$_smarty_tpl->tpl_vars['voucher']->_loop = true;
-?>
-												<?php if ($_smarty_tpl->tpl_vars['voucher']->value['code']!='') {?><span class="voucher_name" data-code="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['voucher']->value['code'], ENT_QUOTES, 'UTF-8', true);?>
-"><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['voucher']->value['code'], ENT_QUOTES, 'UTF-8', true);?>
-</span> - <?php }?><?php echo $_smarty_tpl->tpl_vars['voucher']->value['name'];?>
-<br />
-											<?php } ?>
-										</div>
-									<?php }?>
-								<?php }?>
-							</td>
-							<td colspan="<?php echo $_smarty_tpl->tpl_vars['col_span_subtotal']->value;?>
-" class="text-right"><?php if ($_smarty_tpl->tpl_vars['display_tax_label']->value) {?><?php echo smartyTranslate(array('s'=>'Total products (tax incl.)'),$_smarty_tpl);?>
-<?php } else { ?><?php echo smartyTranslate(array('s'=>'Total products'),$_smarty_tpl);?>
-<?php }?></td>
-							<td colspan="2" class="price" id="total_product"><?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['displayPrice'][0][0]->displayPriceSmarty(array('price'=>$_smarty_tpl->tpl_vars['total_products_wt']->value),$_smarty_tpl);?>
-</td>
-						</tr>
-					<?php }?>
-				<?php } else { ?>
-					<tr class="cart_total_price">
-						<td rowspan="<?php echo $_smarty_tpl->tpl_vars['rowspan_total']->value;?>
-" colspan="2" id="cart_voucher" class="cart_voucher">
-							<?php if ($_smarty_tpl->tpl_vars['voucherAllowed']->value) {?>
-								<?php if (isset($_smarty_tpl->tpl_vars['errors_discount']->value)&&$_smarty_tpl->tpl_vars['errors_discount']->value) {?>
-									<ul class="alert alert-danger">
-										<?php  $_smarty_tpl->tpl_vars['error'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['error']->_loop = false;
- $_smarty_tpl->tpl_vars['k'] = new Smarty_Variable;
- $_from = $_smarty_tpl->tpl_vars['errors_discount']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
-foreach ($_from as $_smarty_tpl->tpl_vars['error']->key => $_smarty_tpl->tpl_vars['error']->value) {
-$_smarty_tpl->tpl_vars['error']->_loop = true;
- $_smarty_tpl->tpl_vars['k']->value = $_smarty_tpl->tpl_vars['error']->key;
-?>
-											<li><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['error']->value, ENT_QUOTES, 'UTF-8', true);?>
-</li>
-										<?php } ?>
-									</ul>
-								<?php }?>
-								<form action="<?php if ($_smarty_tpl->tpl_vars['opc']->value) {?><?php echo $_smarty_tpl->tpl_vars['link']->value->getPageLink('order-opc',true);?>
-<?php } else { ?><?php echo $_smarty_tpl->tpl_vars['link']->value->getPageLink('order',true);?>
-<?php }?>" method="post" id="voucher">
-									<fieldset>
-										<h4><?php echo smartyTranslate(array('s'=>'Vouchers'),$_smarty_tpl);?>
-</h4>
-										<input type="text" class="discount_name form-control" id="discount_name" name="discount_name" value="<?php if (isset($_smarty_tpl->tpl_vars['discount_name']->value)&&$_smarty_tpl->tpl_vars['discount_name']->value) {?><?php echo $_smarty_tpl->tpl_vars['discount_name']->value;?>
-<?php }?>" />
-										<input type="hidden" name="submitDiscount" />
-										<button type="submit" name="submitAddDiscount" class="button btn btn-default button-small">
-											<span><?php echo smartyTranslate(array('s'=>'OK'),$_smarty_tpl);?>
-</span>
-										</button>
-									</fieldset>
-								</form>
-								<?php if ($_smarty_tpl->tpl_vars['displayVouchers']->value) {?>
-									<p id="title" class="title-offers"><?php echo smartyTranslate(array('s'=>'Take advantage of our exclusive offers:'),$_smarty_tpl);?>
-</p>
-									<div id="display_cart_vouchers">
-										<?php  $_smarty_tpl->tpl_vars['voucher'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['voucher']->_loop = false;
- $_from = $_smarty_tpl->tpl_vars['displayVouchers']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
-foreach ($_from as $_smarty_tpl->tpl_vars['voucher']->key => $_smarty_tpl->tpl_vars['voucher']->value) {
-$_smarty_tpl->tpl_vars['voucher']->_loop = true;
-?>
-											<?php if ($_smarty_tpl->tpl_vars['voucher']->value['code']!='') {?><span class="voucher_name" data-code="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['voucher']->value['code'], ENT_QUOTES, 'UTF-8', true);?>
-"><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['voucher']->value['code'], ENT_QUOTES, 'UTF-8', true);?>
-</span> - <?php }?><?php echo $_smarty_tpl->tpl_vars['voucher']->value['name'];?>
-<br />
-										<?php } ?>
-									</div>
-								<?php }?>
-							<?php }?>
-						</td>
-						<td colspan="<?php echo $_smarty_tpl->tpl_vars['col_span_subtotal']->value;?>
-" class="text-right"><?php echo smartyTranslate(array('s'=>'Total products'),$_smarty_tpl);?>
-</td>
-						<td colspan="2" class="price" id="total_product"><?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['displayPrice'][0][0]->displayPriceSmarty(array('price'=>$_smarty_tpl->tpl_vars['total_products']->value),$_smarty_tpl);?>
-</td>
-					</tr>
-				<?php }?>
+				
+					
+						
+							
+								
+									
+										
+											
+												
+											
+										
+									
+									
+										
+											
+											
+											
+											
+										
+									
+									
+										
+										
+											
+												
+											
+										
+									
+								
+							
+							
+							
+						
+					
+						
+							
+								
+									
+										
+											
+												
+											
+										
+									
+									
+										
+											
+											
+											
+											
+										
+									
+									
+										
+										
+											
+												
+											
+										
+									
+								
+							
+							
+							
+						
+					
+				
+					
+						
+							
+								
+									
+										
+											
+										
+									
+								
+								
+									
+										
+										
+										
+										
+											
+										
+									
+								
+								
+									
+									
+										
+											
+										
+									
+								
+							
+						
+						
+						
+					
+				
 				<tr<?php if ($_smarty_tpl->tpl_vars['total_wrapping']->value==0) {?> style="display: none;"<?php }?>>
 					<td colspan="3" class="text-right">
 						<?php if ($_smarty_tpl->tpl_vars['use_taxes']->value) {?>

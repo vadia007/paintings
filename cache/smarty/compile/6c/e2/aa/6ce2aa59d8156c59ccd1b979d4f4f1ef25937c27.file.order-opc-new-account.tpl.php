@@ -1,20 +1,22 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2015-08-04 09:52:44
+<?php /* Smarty version Smarty-3.1.19, created on 2015-08-07 15:41:41
          compiled from "/var/www/html/paintings.loc/themes/paintings/order-opc-new-account.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:118631364655c07d5c839605-98401405%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:38849048155c496e7222459-66016444%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '6ce2aa59d8156c59ccd1b979d4f4f1ef25937c27' => 
     array (
       0 => '/var/www/html/paintings.loc/themes/paintings/order-opc-new-account.tpl',
-      1 => 1438606135,
+      1 => 1438958460,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '118631364655c07d5c839605-98401405',
+  'nocache_hash' => '38849048155c496e7222459-66016444',
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_55c496e76238d8_91690334',
   'variables' => 
   array (
     'link' => 0,
@@ -23,16 +25,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'guestInformations' => 0,
     'genders' => 0,
     'gender' => 0,
-    'days' => 0,
-    'day' => 0,
-    'months' => 0,
-    'k' => 0,
-    'month' => 0,
-    'years' => 0,
-    'year' => 0,
-    'newsletter' => 0,
-    'field_required' => 0,
-    'optin' => 0,
     'dlv_all_fields' => 0,
     'field_name' => 0,
     'required_fields' => 0,
@@ -48,12 +40,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'vatnumber_ajax_call' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_55c07d5cc43353_13888825',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_55c07d5cc43353_13888825')) {function content_55c07d5cc43353_13888825($_smarty_tpl) {?><div id="opc_new_account" class="opc-main-block">
+<?php if ($_valid && !is_callable('content_55c496e76238d8_91690334')) {function content_55c496e76238d8_91690334($_smarty_tpl) {?><div id="opc_new_account" class="opc-main-block">
 	<div id="opc_new_account-overlay" class="opc-overlay" style="display: none;"></div>
-	<h1 class="page-heading step-num"><span>1</span> <?php echo smartyTranslate(array('s'=>'Account'),$_smarty_tpl);?>
+	<h1 class="page-heading step-num"><span>1</span> <?php echo smartyTranslate(array('s'=>'Personal details'),$_smarty_tpl);?>
 </h1>
 	<form action="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['link']->value->getPageLink('authentication',true,null,"back=order-opc"), ENT_QUOTES, 'UTF-8', true);?>
 " method="post" id="login_form" class="box">
@@ -92,7 +82,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 	<form action="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['link']->value->getPageLink('authentication',true), ENT_QUOTES, 'UTF-8', true);?>
 " method="post" id="new_account_form" class="std" autocomplete="on" autofill="on">
 		<fieldset>
-			<div class="box">
+			<div class="box checkout-fields">
 				<h3 id="new_account_title" class="page-subheading"><?php echo smartyTranslate(array('s'=>'New Customer'),$_smarty_tpl);?>
 </h3>
 				<div id="opc_account_choice" class="row">
@@ -158,13 +148,13 @@ foreach ($_from as $_smarty_tpl->tpl_vars['gender']->key => $_smarty_tpl->tpl_va
 $_smarty_tpl->tpl_vars['gender']->_loop = true;
  $_smarty_tpl->tpl_vars['k']->value = $_smarty_tpl->tpl_vars['gender']->key;
 ?>
-						<div class="radio-inline">
-							<label for="id_gender<?php echo $_smarty_tpl->tpl_vars['gender']->value->id_gender;?>
+							<div class="radio-inline">
+								<label for="id_gender<?php echo $_smarty_tpl->tpl_vars['gender']->value->id_gender;?>
 " class="top">
-							<input type="radio" name="id_gender" id="id_gender<?php echo $_smarty_tpl->tpl_vars['gender']->value->id_gender;?>
+									<input type="radio" name="id_gender" id="id_gender<?php echo $_smarty_tpl->tpl_vars['gender']->value->id_gender;?>
 " value="<?php echo $_smarty_tpl->tpl_vars['gender']->value->id_gender;?>
 "<?php if (isset($_POST['id_gender'])&&$_POST['id_gender']==$_smarty_tpl->tpl_vars['gender']->value->id_gender||(isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&$_smarty_tpl->tpl_vars['guestInformations']->value['id_gender']==$_smarty_tpl->tpl_vars['gender']->value->id_gender)) {?> checked="checked"<?php }?> />
-							<?php echo $_smarty_tpl->tpl_vars['gender']->value->name;?>
+									<?php echo $_smarty_tpl->tpl_vars['gender']->value->name;?>
 </label></div>
 						<?php } ?>
 					</div>
@@ -180,80 +170,41 @@ $_smarty_tpl->tpl_vars['gender']->_loop = true;
 						<input type="text" class="form-control validate" id="customer_lastname" name="customer_lastname" onblur="$('#lastname').val($(this).val());" data-validate="isName" value="<?php if (isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&isset($_smarty_tpl->tpl_vars['guestInformations']->value['customer_lastname'])&&$_smarty_tpl->tpl_vars['guestInformations']->value['customer_lastname']) {?><?php echo $_smarty_tpl->tpl_vars['guestInformations']->value['customer_lastname'];?>
 <?php }?>" />
 					</div>
-					<div class="select form-group date-select">
-						<label><?php echo smartyTranslate(array('s'=>'Date of Birth'),$_smarty_tpl);?>
+					<div class="form-group">
+						<label for="fax"><?php echo smartyTranslate(array('s'=>'Fax'),$_smarty_tpl);?>
 </label>
-						<div class="row">
-							<div class="col-xs-4">
-								<select id="days" name="days" class="form-control">
-									<option value="">-</option>
-									<?php  $_smarty_tpl->tpl_vars['day'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['day']->_loop = false;
- $_from = $_smarty_tpl->tpl_vars['days']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
-foreach ($_from as $_smarty_tpl->tpl_vars['day']->key => $_smarty_tpl->tpl_vars['day']->value) {
-$_smarty_tpl->tpl_vars['day']->_loop = true;
-?>
-									<option value="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['day']->value, ENT_QUOTES, 'UTF-8', true);?>
-" <?php if (isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&isset($_smarty_tpl->tpl_vars['guestInformations']->value['sl_day'])&&($_smarty_tpl->tpl_vars['guestInformations']->value['sl_day']==$_smarty_tpl->tpl_vars['day']->value)) {?> selected="selected"<?php }?>><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['day']->value, ENT_QUOTES, 'UTF-8', true);?>
-&nbsp;&nbsp;</option>
-									<?php } ?>
-								</select>
-								
-							</div>
-							<div class="col-xs-4">
-								<select id="months" name="months" class="form-control">
-									<option value="">-</option>
-									<?php  $_smarty_tpl->tpl_vars['month'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['month']->_loop = false;
- $_smarty_tpl->tpl_vars['k'] = new Smarty_Variable;
- $_from = $_smarty_tpl->tpl_vars['months']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
-foreach ($_from as $_smarty_tpl->tpl_vars['month']->key => $_smarty_tpl->tpl_vars['month']->value) {
-$_smarty_tpl->tpl_vars['month']->_loop = true;
- $_smarty_tpl->tpl_vars['k']->value = $_smarty_tpl->tpl_vars['month']->key;
-?>
-									<option value="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['k']->value, ENT_QUOTES, 'UTF-8', true);?>
-" <?php if (isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&isset($_smarty_tpl->tpl_vars['guestInformations']->value['sl_month'])&&($_smarty_tpl->tpl_vars['guestInformations']->value['sl_month']==$_smarty_tpl->tpl_vars['k']->value)) {?> selected="selected"<?php }?>><?php echo smartyTranslate(array('s'=>$_smarty_tpl->tpl_vars['month']->value),$_smarty_tpl);?>
-&nbsp;</option>
-									<?php } ?>
-								</select>
-							</div>
-							<div class="col-xs-4">
-								<select id="years" name="years" class="form-control">
-									<option value="">-</option>
-									<?php  $_smarty_tpl->tpl_vars['year'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['year']->_loop = false;
- $_from = $_smarty_tpl->tpl_vars['years']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
-foreach ($_from as $_smarty_tpl->tpl_vars['year']->key => $_smarty_tpl->tpl_vars['year']->value) {
-$_smarty_tpl->tpl_vars['year']->_loop = true;
-?>
-									<option value="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['year']->value, ENT_QUOTES, 'UTF-8', true);?>
-" <?php if (isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&isset($_smarty_tpl->tpl_vars['guestInformations']->value['sl_year'])&&($_smarty_tpl->tpl_vars['guestInformations']->value['sl_year']==$_smarty_tpl->tpl_vars['year']->value)) {?> selected="selected"<?php }?>><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['year']->value, ENT_QUOTES, 'UTF-8', true);?>
-&nbsp;&nbsp;</option>
-									<?php } ?>
-								</select>
-							</div>
-						</div>
+						<input type="text" class="form-control validate" id="fax" name="fax" value="<?php if (isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&isset($_smarty_tpl->tpl_vars['guestInformations']->value['customer_fax'])&&$_smarty_tpl->tpl_vars['guestInformations']->value['customer_fax']) {?><?php echo $_smarty_tpl->tpl_vars['guestInformations']->value['customer_fax'];?>
+<?php }?>" />
 					</div>
-					<?php if (isset($_smarty_tpl->tpl_vars['newsletter']->value)&&$_smarty_tpl->tpl_vars['newsletter']->value) {?>
-					<div class="checkbox">
-						<label for="newsletter">
-						<input type="checkbox" name="newsletter" id="newsletter" value="1"<?php if (isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&isset($_smarty_tpl->tpl_vars['guestInformations']->value['newsletter'])&&$_smarty_tpl->tpl_vars['guestInformations']->value['newsletter']) {?> checked="checked"<?php }?> autocomplete="off"/>
-						<?php echo smartyTranslate(array('s'=>'Sign up for our newsletter!'),$_smarty_tpl);?>
+					<div class="form-group">
+						<label for="details_website"><?php echo smartyTranslate(array('s'=>'Website'),$_smarty_tpl);?>
 </label>
-						<?php if (array_key_exists('newsletter',$_smarty_tpl->tpl_vars['field_required']->value)) {?>
-							<sup> *</sup>
-						<?php }?>
+						<input type="text" class="form-control validate" id="details_website" name="details_website" value="<?php if (isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&isset($_smarty_tpl->tpl_vars['guestInformations']->value['customer_details_website'])&&$_smarty_tpl->tpl_vars['guestInformations']->value['customer_details_website']) {?><?php echo $_smarty_tpl->tpl_vars['guestInformations']->value['customer_details_website'];?>
+<?php }?>" />
 					</div>
-					<?php }?>
-					<?php if (isset($_smarty_tpl->tpl_vars['optin']->value)&&$_smarty_tpl->tpl_vars['optin']->value) {?>
-					<div class="checkbox">
-						<label for="optin">
-						<input type="checkbox" name="optin" id="optin" value="1"<?php if (isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&isset($_smarty_tpl->tpl_vars['guestInformations']->value['optin'])&&$_smarty_tpl->tpl_vars['guestInformations']->value['optin']) {?> checked="checked"<?php }?> autocomplete="off"/>
-						<?php echo smartyTranslate(array('s'=>'Receive special offers from our partners!'),$_smarty_tpl);?>
-</label>
-						<?php if (array_key_exists('optin',$_smarty_tpl->tpl_vars['field_required']->value)) {?>
-							<sup> *</sup>
-						<?php }?>
-					</div>
-					<?php }?>
-					<h3 class="page-subheading top-indent"><?php echo smartyTranslate(array('s'=>'Delivery address'),$_smarty_tpl);?>
+
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					<h3 class="page-subheading top-indent"><?php echo smartyTranslate(array('s'=>'Shipping Address'),$_smarty_tpl);?>
 </h3>
 					<?php $_smarty_tpl->tpl_vars['stateExist'] = new Smarty_variable(false, null, 0);?>
 					<?php $_smarty_tpl->tpl_vars['postCodeExist'] = new Smarty_variable(false, null, 0);?>
@@ -263,128 +214,142 @@ $_smarty_tpl->tpl_vars['year']->_loop = true;
 foreach ($_from as $_smarty_tpl->tpl_vars['field_name']->key => $_smarty_tpl->tpl_vars['field_name']->value) {
 $_smarty_tpl->tpl_vars['field_name']->_loop = true;
 ?>
-					<?php if ($_smarty_tpl->tpl_vars['field_name']->value=="company") {?>
-						<div class="text form-group">
-							<label for="company"><?php echo smartyTranslate(array('s'=>'Company'),$_smarty_tpl);?>
+						<?php if ($_smarty_tpl->tpl_vars['field_name']->value=="company") {?>
+							<div class="text form-group">
+								<label for="company"><?php echo smartyTranslate(array('s'=>'Company'),$_smarty_tpl);?>
 <?php if (in_array($_smarty_tpl->tpl_vars['field_name']->value,$_smarty_tpl->tpl_vars['required_fields']->value)) {?> <sup>*</sup><?php }?></label>
-							<input type="text" class="text form-control validate" id="company" name="company" data-validate="isName" value="<?php if (isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&isset($_smarty_tpl->tpl_vars['guestInformations']->value['company'])&&$_smarty_tpl->tpl_vars['guestInformations']->value['company']) {?><?php echo $_smarty_tpl->tpl_vars['guestInformations']->value['company'];?>
+								<input type="text" class="text form-control validate" id="company" name="company" data-validate="isName" value="<?php if (isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&isset($_smarty_tpl->tpl_vars['guestInformations']->value['company'])&&$_smarty_tpl->tpl_vars['guestInformations']->value['company']) {?><?php echo $_smarty_tpl->tpl_vars['guestInformations']->value['company'];?>
 <?php }?>" />
-						</div>
-					<?php } elseif ($_smarty_tpl->tpl_vars['field_name']->value=="vat_number") {?>
-					<div id="vat_number_block" style="display:none;">
-						<div class="form-group">
-							<label for="vat_number"><?php echo smartyTranslate(array('s'=>'VAT number'),$_smarty_tpl);?>
+							</div>
+						<?php } elseif ($_smarty_tpl->tpl_vars['field_name']->value=="vat_number") {?>
+							<div id="vat_number_block" style="display:none;">
+								<div class="form-group">
+									<label for="vat_number"><?php echo smartyTranslate(array('s'=>'VAT number'),$_smarty_tpl);?>
 <?php if (in_array($_smarty_tpl->tpl_vars['field_name']->value,$_smarty_tpl->tpl_vars['required_fields']->value)) {?> <sup>*</sup><?php }?></label>
-							<input type="text" class="text form-control" name="vat_number" id="vat_number" value="<?php if (isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&isset($_smarty_tpl->tpl_vars['guestInformations']->value['vat_number'])&&$_smarty_tpl->tpl_vars['guestInformations']->value['vat_number']) {?><?php echo $_smarty_tpl->tpl_vars['guestInformations']->value['vat_number'];?>
+									<input type="text" class="text form-control" name="vat_number" id="vat_number" value="<?php if (isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&isset($_smarty_tpl->tpl_vars['guestInformations']->value['vat_number'])&&$_smarty_tpl->tpl_vars['guestInformations']->value['vat_number']) {?><?php echo $_smarty_tpl->tpl_vars['guestInformations']->value['vat_number'];?>
 <?php }?>" />
-						</div>
-					</div>
-					<?php } elseif ($_smarty_tpl->tpl_vars['field_name']->value=="dni") {?>
-					<?php $_smarty_tpl->tpl_vars['dniExist'] = new Smarty_variable(true, null, 0);?>
-					<div class="required dni form-group">
-						<label for="dni"><?php echo smartyTranslate(array('s'=>'Identification number'),$_smarty_tpl);?>
+								</div>
+							</div>
+						<?php } elseif ($_smarty_tpl->tpl_vars['field_name']->value=="dni") {?>
+							<?php $_smarty_tpl->tpl_vars['dniExist'] = new Smarty_variable(true, null, 0);?>
+							<div class="required dni form-group">
+								<label for="dni"><?php echo smartyTranslate(array('s'=>'Identification number'),$_smarty_tpl);?>
  <sup>*</sup></label>
-						<input type="text" class="text form-control validate" name="dni" id="dni" data-validate="isDniLite" value="<?php if (isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&isset($_smarty_tpl->tpl_vars['guestInformations']->value['dni'])&&$_smarty_tpl->tpl_vars['guestInformations']->value['dni']) {?><?php echo $_smarty_tpl->tpl_vars['guestInformations']->value['dni'];?>
+								<input type="text" class="text form-control validate" name="dni" id="dni" data-validate="isDniLite" value="<?php if (isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&isset($_smarty_tpl->tpl_vars['guestInformations']->value['dni'])&&$_smarty_tpl->tpl_vars['guestInformations']->value['dni']) {?><?php echo $_smarty_tpl->tpl_vars['guestInformations']->value['dni'];?>
 <?php }?>" />
-						<span class="form_info"><?php echo smartyTranslate(array('s'=>'DNI / NIF / NIE'),$_smarty_tpl);?>
+								<span class="form_info"><?php echo smartyTranslate(array('s'=>'DNI / NIF / NIE'),$_smarty_tpl);?>
 </span>
-					</div>
-					<?php } elseif ($_smarty_tpl->tpl_vars['field_name']->value=="firstname") {?>
-					<div class="required text form-group">
-						<label for="firstname"><?php echo smartyTranslate(array('s'=>'First name'),$_smarty_tpl);?>
+							</div>
+						<?php } elseif ($_smarty_tpl->tpl_vars['field_name']->value=="firstname") {?>
+							<div class="required text form-group">
+								<label for="firstname"><?php echo smartyTranslate(array('s'=>'First name'),$_smarty_tpl);?>
  <sup>*</sup></label>
-						<input type="text" class="text form-control validate" id="firstname" name="firstname" data-validate="isName" value="<?php if (isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&isset($_smarty_tpl->tpl_vars['guestInformations']->value['firstname'])&&$_smarty_tpl->tpl_vars['guestInformations']->value['firstname']) {?><?php echo $_smarty_tpl->tpl_vars['guestInformations']->value['firstname'];?>
+								<input type="text" class="text form-control validate" id="firstname" name="firstname" data-validate="isName" value="<?php if (isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&isset($_smarty_tpl->tpl_vars['guestInformations']->value['firstname'])&&$_smarty_tpl->tpl_vars['guestInformations']->value['firstname']) {?><?php echo $_smarty_tpl->tpl_vars['guestInformations']->value['firstname'];?>
 <?php }?>" />
-					</div>
-					<?php } elseif ($_smarty_tpl->tpl_vars['field_name']->value=="lastname") {?>
-					<div class="required text form-group">
-						<label for="lastname"><?php echo smartyTranslate(array('s'=>'Last name'),$_smarty_tpl);?>
+							</div>
+						<?php } elseif ($_smarty_tpl->tpl_vars['field_name']->value=="lastname") {?>
+							<div class="required text form-group">
+								<label for="lastname"><?php echo smartyTranslate(array('s'=>'Last name'),$_smarty_tpl);?>
  <sup>*</sup></label>
-						<input type="text" class="text form-control validate" id="lastname" name="lastname" data-validate="isName" value="<?php if (isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&isset($_smarty_tpl->tpl_vars['guestInformations']->value['lastname'])&&$_smarty_tpl->tpl_vars['guestInformations']->value['lastname']) {?><?php echo $_smarty_tpl->tpl_vars['guestInformations']->value['lastname'];?>
+								<input type="text" class="text form-control validate" id="lastname" name="lastname" data-validate="isName" value="<?php if (isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&isset($_smarty_tpl->tpl_vars['guestInformations']->value['lastname'])&&$_smarty_tpl->tpl_vars['guestInformations']->value['lastname']) {?><?php echo $_smarty_tpl->tpl_vars['guestInformations']->value['lastname'];?>
 <?php }?>" />
-					</div>
-					<?php } elseif ($_smarty_tpl->tpl_vars['field_name']->value=="address1") {?>
-					<div class="required text form-group">
-						<label for="address1"><?php echo smartyTranslate(array('s'=>'Address'),$_smarty_tpl);?>
+							</div>
+						<?php } elseif ($_smarty_tpl->tpl_vars['field_name']->value=="fax") {?>
+							<div class="text form-group">
+								<label for="fax"><?php echo smartyTranslate(array('s'=>'Fax'),$_smarty_tpl);?>
+</label>
+								<input type="text" class="text form-control validate" id="fax" name="fax" value="<?php if (isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&isset($_smarty_tpl->tpl_vars['guestInformations']->value['fax'])&&$_smarty_tpl->tpl_vars['guestInformations']->value['fax']) {?><?php echo $_smarty_tpl->tpl_vars['guestInformations']->value['fax'];?>
+<?php }?>" />
+							</div>
+						<?php } elseif ($_smarty_tpl->tpl_vars['field_name']->value=="details_website") {?>
+							<div class="text form-group">
+								<label for="details_website"><?php echo smartyTranslate(array('s'=>'Website'),$_smarty_tpl);?>
+</label>
+								<input type="text" class="text form-control validate" id="details_website" name="details_website" value="<?php if (isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&isset($_smarty_tpl->tpl_vars['guestInformations']->value['details_website'])&&$_smarty_tpl->tpl_vars['guestInformations']->value['details_website']) {?><?php echo $_smarty_tpl->tpl_vars['guestInformations']->value['details_website'];?>
+<?php }?>" />
+							</div>
+						<?php } elseif ($_smarty_tpl->tpl_vars['field_name']->value=="address1") {?>
+							<div class="required text form-group">
+								<label for="address1"><?php echo smartyTranslate(array('s'=>'Address'),$_smarty_tpl);?>
  <sup>*</sup></label>
-						<input type="text" class="text form-control validate" name="address1" id="address1" data-validate="isAddress" value="<?php if (isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&isset($_smarty_tpl->tpl_vars['guestInformations']->value['address1'])&&isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&isset($_smarty_tpl->tpl_vars['guestInformations']->value['address1'])&&$_smarty_tpl->tpl_vars['guestInformations']->value['address1']) {?><?php echo $_smarty_tpl->tpl_vars['guestInformations']->value['address1'];?>
+								<input type="text" class="text form-control validate" name="address1" id="address1" data-validate="isAddress" value="<?php if (isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&isset($_smarty_tpl->tpl_vars['guestInformations']->value['address1'])&&isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&isset($_smarty_tpl->tpl_vars['guestInformations']->value['address1'])&&$_smarty_tpl->tpl_vars['guestInformations']->value['address1']) {?><?php echo $_smarty_tpl->tpl_vars['guestInformations']->value['address1'];?>
 <?php }?>" />
-					</div>
-					<?php } elseif ($_smarty_tpl->tpl_vars['field_name']->value=="address2") {?>
-					<div class="text<?php if (!in_array($_smarty_tpl->tpl_vars['field_name']->value,$_smarty_tpl->tpl_vars['required_fields']->value)) {?> is_customer_param<?php }?> form-group">
-						<label for="address2"><?php echo smartyTranslate(array('s'=>'Address (Line 2)'),$_smarty_tpl);?>
+							</div>
+						<?php } elseif ($_smarty_tpl->tpl_vars['field_name']->value=="address2") {?>
+							<div class="text<?php if (!in_array($_smarty_tpl->tpl_vars['field_name']->value,$_smarty_tpl->tpl_vars['required_fields']->value)) {?> is_customer_param<?php }?> form-group">
+								<label for="address2"><?php echo smartyTranslate(array('s'=>'Address (Line 2)'),$_smarty_tpl);?>
 <?php if (in_array($_smarty_tpl->tpl_vars['field_name']->value,$_smarty_tpl->tpl_vars['required_fields']->value)) {?> <sup>*</sup><?php }?></label>
-						<input type="text" class="text form-control validate" name="address2" id="address2" data-validate="isAddress" value="<?php if (isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&isset($_smarty_tpl->tpl_vars['guestInformations']->value['address2'])&&isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&isset($_smarty_tpl->tpl_vars['guestInformations']->value['address2'])&&$_smarty_tpl->tpl_vars['guestInformations']->value['address2']) {?><?php echo $_smarty_tpl->tpl_vars['guestInformations']->value['address2'];?>
+								<input type="text" class="text form-control validate" name="address2" id="address2" data-validate="isAddress" value="<?php if (isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&isset($_smarty_tpl->tpl_vars['guestInformations']->value['address2'])&&isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&isset($_smarty_tpl->tpl_vars['guestInformations']->value['address2'])&&$_smarty_tpl->tpl_vars['guestInformations']->value['address2']) {?><?php echo $_smarty_tpl->tpl_vars['guestInformations']->value['address2'];?>
 <?php }?>" />
-					</div>
-					<?php } elseif ($_smarty_tpl->tpl_vars['field_name']->value=="postcode") {?>
-					<?php $_smarty_tpl->tpl_vars['postCodeExist'] = new Smarty_variable(true, null, 0);?>
-					<div class="required postcode text form-group">
-						<label for="postcode"><?php echo smartyTranslate(array('s'=>'Zip/Postal code'),$_smarty_tpl);?>
+							</div>
+						<?php } elseif ($_smarty_tpl->tpl_vars['field_name']->value=="postcode") {?>
+							<?php $_smarty_tpl->tpl_vars['postCodeExist'] = new Smarty_variable(true, null, 0);?>
+							<div class="required postcode text form-group">
+								<label for="postcode"><?php echo smartyTranslate(array('s'=>'Zip/Postal code'),$_smarty_tpl);?>
  <sup>*</sup></label>
-						<input type="text" class="text form-control validate" name="postcode" id="postcode" data-validate="isPostCode" value="<?php if (isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&isset($_smarty_tpl->tpl_vars['guestInformations']->value['postcode'])&&$_smarty_tpl->tpl_vars['guestInformations']->value['postcode']) {?><?php echo $_smarty_tpl->tpl_vars['guestInformations']->value['postcode'];?>
+								<input type="text" class="text form-control validate" name="postcode" id="postcode" data-validate="isPostCode" value="<?php if (isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&isset($_smarty_tpl->tpl_vars['guestInformations']->value['postcode'])&&$_smarty_tpl->tpl_vars['guestInformations']->value['postcode']) {?><?php echo $_smarty_tpl->tpl_vars['guestInformations']->value['postcode'];?>
 <?php }?>" onkeyup="$('#postcode').val($('#postcode').val().toUpperCase());" />
-					</div>
-					<?php } elseif ($_smarty_tpl->tpl_vars['field_name']->value=="city") {?>
-					<div class="required text form-group">
-						<label for="city"><?php echo smartyTranslate(array('s'=>'City'),$_smarty_tpl);?>
+							</div>
+						<?php } elseif ($_smarty_tpl->tpl_vars['field_name']->value=="city") {?>
+							<div class="required text form-group">
+								<label for="city"><?php echo smartyTranslate(array('s'=>'City'),$_smarty_tpl);?>
  <sup>*</sup></label>
-						<input type="text" class="text form-control validate" name="city" id="city" data-validate="isCityName" value="<?php if (isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&isset($_smarty_tpl->tpl_vars['guestInformations']->value['city'])&&$_smarty_tpl->tpl_vars['guestInformations']->value['city']) {?><?php echo $_smarty_tpl->tpl_vars['guestInformations']->value['city'];?>
+								<input type="text" class="text form-control validate" name="city" id="city" data-validate="isCityName" value="<?php if (isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&isset($_smarty_tpl->tpl_vars['guestInformations']->value['city'])&&$_smarty_tpl->tpl_vars['guestInformations']->value['city']) {?><?php echo $_smarty_tpl->tpl_vars['guestInformations']->value['city'];?>
 <?php }?>" />
-					</div>
-					<?php } elseif ($_smarty_tpl->tpl_vars['field_name']->value=="country"||$_smarty_tpl->tpl_vars['field_name']->value=="Country:name") {?>
-					<div class="required select form-group">
-						<label for="id_country"><?php echo smartyTranslate(array('s'=>'Country'),$_smarty_tpl);?>
+							</div>
+						<?php } elseif ($_smarty_tpl->tpl_vars['field_name']->value=="country"||$_smarty_tpl->tpl_vars['field_name']->value=="Country:name") {?>
+							<div class="required select form-group">
+								<label for="id_country"><?php echo smartyTranslate(array('s'=>'Country'),$_smarty_tpl);?>
  <sup>*</sup></label>
-						<select name="id_country" id="id_country" class="form-control">
-							<?php  $_smarty_tpl->tpl_vars['v'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['v']->_loop = false;
+								<select name="id_country" id="id_country" class="form-control">
+									<?php  $_smarty_tpl->tpl_vars['v'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['v']->_loop = false;
  $_from = $_smarty_tpl->tpl_vars['countries']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
 foreach ($_from as $_smarty_tpl->tpl_vars['v']->key => $_smarty_tpl->tpl_vars['v']->value) {
 $_smarty_tpl->tpl_vars['v']->_loop = true;
 ?>
-							<option value="<?php echo $_smarty_tpl->tpl_vars['v']->value['id_country'];?>
+										<option value="<?php echo $_smarty_tpl->tpl_vars['v']->value['id_country'];?>
 "<?php if ((isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&isset($_smarty_tpl->tpl_vars['guestInformations']->value['id_country'])&&$_smarty_tpl->tpl_vars['guestInformations']->value['id_country']==$_smarty_tpl->tpl_vars['v']->value['id_country'])||(!isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&$_smarty_tpl->tpl_vars['sl_country']->value==$_smarty_tpl->tpl_vars['v']->value['id_country'])) {?> selected="selected"<?php }?>><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['v']->value['name'], ENT_QUOTES, 'UTF-8', true);?>
 </option>
-							<?php } ?>
-						</select>
-					</div>
-					<?php } elseif ($_smarty_tpl->tpl_vars['field_name']->value=="state"||$_smarty_tpl->tpl_vars['field_name']->value=='State:name') {?>
-					<?php $_smarty_tpl->tpl_vars['stateExist'] = new Smarty_variable(true, null, 0);?>
-					<div class="required id_state form-group" style="display:none;">
-						<label for="id_state"><?php echo smartyTranslate(array('s'=>'State'),$_smarty_tpl);?>
+									<?php } ?>
+								</select>
+							</div>
+						<?php } elseif ($_smarty_tpl->tpl_vars['field_name']->value=="state"||$_smarty_tpl->tpl_vars['field_name']->value=='State:name') {?>
+							<?php $_smarty_tpl->tpl_vars['stateExist'] = new Smarty_variable(true, null, 0);?>
+							<div class="required id_state form-group" style="display:none;">
+								<label for="id_state"><?php echo smartyTranslate(array('s'=>'State'),$_smarty_tpl);?>
  <sup>*</sup></label>
-						<select name="id_state" id="id_state" class="form-control">
-							<option value="">-</option>
-						</select>
-					</div>
-					<?php }?>
+								<select name="id_state" id="id_state" class="form-control">
+									<option value="">-</option>
+								</select>
+							</div>
+						<?php }?>
 					<?php } ?>
 					<?php if (!$_smarty_tpl->tpl_vars['postCodeExist']->value) {?>
-					<div class="required postcode form-group unvisible">
-						<label for="postcode"><?php echo smartyTranslate(array('s'=>'Zip/Postal code'),$_smarty_tpl);?>
+						<div class="required postcode form-group unvisible">
+							<label for="postcode"><?php echo smartyTranslate(array('s'=>'Zip/Postal code'),$_smarty_tpl);?>
  <sup>*</sup></label>
-						<input type="text" class="text form-control validate" name="postcode" id="postcode" data-validate="isPostCode" value="<?php if (isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&isset($_smarty_tpl->tpl_vars['guestInformations']->value['postcode'])&&$_smarty_tpl->tpl_vars['guestInformations']->value['postcode']) {?><?php echo $_smarty_tpl->tpl_vars['guestInformations']->value['postcode'];?>
+							<input type="text" class="text form-control validate" name="postcode" id="postcode" data-validate="isPostCode" value="<?php if (isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&isset($_smarty_tpl->tpl_vars['guestInformations']->value['postcode'])&&$_smarty_tpl->tpl_vars['guestInformations']->value['postcode']) {?><?php echo $_smarty_tpl->tpl_vars['guestInformations']->value['postcode'];?>
 <?php }?>" onkeyup="$('#postcode').val($('#postcode').val().toUpperCase());" />
-					</div>
+						</div>
 					<?php }?>
 					<?php if (!$_smarty_tpl->tpl_vars['stateExist']->value) {?>
-					<div class="required id_state form-group unvisible">
-						<label for="id_state"><?php echo smartyTranslate(array('s'=>'State'),$_smarty_tpl);?>
+						<div class="required id_state form-group unvisible">
+							<label for="id_state"><?php echo smartyTranslate(array('s'=>'State'),$_smarty_tpl);?>
  <sup>*</sup></label>
-						<select name="id_state" id="id_state" class="form-control">
-							<option value="">-</option>
-						</select>
-					</div>
+							<select name="id_state" id="id_state" class="form-control">
+								<option value="">-</option>
+							</select>
+						</div>
 					<?php }?>
 					<?php if (!$_smarty_tpl->tpl_vars['dniExist']->value) {?>
-					<div class="required dni form-group">
-						<label for="dni"><?php echo smartyTranslate(array('s'=>'Identification number'),$_smarty_tpl);?>
+						<div class="required dni form-group">
+							<label for="dni"><?php echo smartyTranslate(array('s'=>'Identification number'),$_smarty_tpl);?>
  <sup>*</sup></label>
-						<input type="text" class="text form-control validate" name="dni" id="dni" data-validate="isDniLite" value="<?php if (isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&isset($_smarty_tpl->tpl_vars['guestInformations']->value['dni'])&&$_smarty_tpl->tpl_vars['guestInformations']->value['dni']) {?><?php echo $_smarty_tpl->tpl_vars['guestInformations']->value['dni'];?>
+							<input type="text" class="text form-control validate" name="dni" id="dni" data-validate="isDniLite" value="<?php if (isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&isset($_smarty_tpl->tpl_vars['guestInformations']->value['dni'])&&$_smarty_tpl->tpl_vars['guestInformations']->value['dni']) {?><?php echo $_smarty_tpl->tpl_vars['guestInformations']->value['dni'];?>
 <?php }?>" />
-						<span class="form_info"><?php echo smartyTranslate(array('s'=>'DNI / NIF / NIE'),$_smarty_tpl);?>
+							<span class="form_info"><?php echo smartyTranslate(array('s'=>'DNI / NIF / NIE'),$_smarty_tpl);?>
 </span>
-					</div>
+						</div>
 					<?php }?>
 					<div class="form-group is_customer_param">
 						<label for="other"><?php echo smartyTranslate(array('s'=>'Additional information'),$_smarty_tpl);?>
@@ -412,8 +377,8 @@ $_smarty_tpl->tpl_vars['v']->_loop = true;
 
 					<div class="checkbox">
 						<label for="invoice_address">
-						<input type="checkbox" name="invoice_address" id="invoice_address"<?php if ((isset($_POST['invoice_address'])&&$_POST['invoice_address'])||(isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&isset($_smarty_tpl->tpl_vars['guestInformations']->value['invoice_address'])&&$_smarty_tpl->tpl_vars['guestInformations']->value['invoice_address'])) {?> checked="checked"<?php }?> autocomplete="off"/>
-						<?php echo smartyTranslate(array('s'=>'Please use another address for invoice'),$_smarty_tpl);?>
+							<input type="checkbox" name="invoice_address" id="invoice_address"<?php if ((isset($_POST['invoice_address'])&&$_POST['invoice_address'])||(isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&isset($_smarty_tpl->tpl_vars['guestInformations']->value['invoice_address'])&&$_smarty_tpl->tpl_vars['guestInformations']->value['invoice_address'])) {?> checked="checked"<?php }?> autocomplete="off"/>
+							<?php echo smartyTranslate(array('s'=>'Please use another address for invoice'),$_smarty_tpl);?>
 </label>
 					</div>
 
@@ -428,129 +393,143 @@ $_smarty_tpl->tpl_vars['v']->_loop = true;
 foreach ($_from as $_smarty_tpl->tpl_vars['field_name']->key => $_smarty_tpl->tpl_vars['field_name']->value) {
 $_smarty_tpl->tpl_vars['field_name']->_loop = true;
 ?>
-						<?php if ($_smarty_tpl->tpl_vars['field_name']->value=="company") {?>
-						<div class="form-group">
-							<label for="company_invoice"><?php echo smartyTranslate(array('s'=>'Company'),$_smarty_tpl);?>
+							<?php if ($_smarty_tpl->tpl_vars['field_name']->value=="company") {?>
+								<div class="form-group">
+									<label for="company_invoice"><?php echo smartyTranslate(array('s'=>'Company'),$_smarty_tpl);?>
 <?php if (in_array($_smarty_tpl->tpl_vars['field_name']->value,$_smarty_tpl->tpl_vars['required_fields']->value)) {?> <sup>*</sup><?php }?></label>
-							<input type="text" class="text form-control validate" id="company_invoice" name="company_invoice"  data-validate="isName" value="<?php if (isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&isset($_smarty_tpl->tpl_vars['guestInformations']->value['company_invoice'])&&$_smarty_tpl->tpl_vars['guestInformations']->value['company_invoice']) {?><?php echo $_smarty_tpl->tpl_vars['guestInformations']->value['company_invoice'];?>
+									<input type="text" class="text form-control validate" id="company_invoice" name="company_invoice"  data-validate="isName" value="<?php if (isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&isset($_smarty_tpl->tpl_vars['guestInformations']->value['company_invoice'])&&$_smarty_tpl->tpl_vars['guestInformations']->value['company_invoice']) {?><?php echo $_smarty_tpl->tpl_vars['guestInformations']->value['company_invoice'];?>
 <?php }?>" />
-						</div>
-						<?php } elseif ($_smarty_tpl->tpl_vars['field_name']->value=="vat_number") {?>
-						<div id="vat_number_block_invoice" class="is_customer_param" style="display:none;">
-							<div class="form-group">
-								<label for="vat_number_invoice"><?php echo smartyTranslate(array('s'=>'VAT number'),$_smarty_tpl);?>
+								</div>
+							<?php } elseif ($_smarty_tpl->tpl_vars['field_name']->value=="vat_number") {?>
+								<div id="vat_number_block_invoice" class="is_customer_param" style="display:none;">
+									<div class="form-group">
+										<label for="vat_number_invoice"><?php echo smartyTranslate(array('s'=>'VAT number'),$_smarty_tpl);?>
 <?php if (in_array($_smarty_tpl->tpl_vars['field_name']->value,$_smarty_tpl->tpl_vars['required_fields']->value)) {?> <sup>*</sup><?php }?></label>
-								<input type="text" class="form-control" id="vat_number_invoice" name="vat_number_invoice" value="<?php if (isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&isset($_smarty_tpl->tpl_vars['guestInformations']->value['vat_number_invoice'])&&$_smarty_tpl->tpl_vars['guestInformations']->value['vat_number_invoice']) {?><?php echo $_smarty_tpl->tpl_vars['guestInformations']->value['vat_number_invoice'];?>
+										<input type="text" class="form-control" id="vat_number_invoice" name="vat_number_invoice" value="<?php if (isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&isset($_smarty_tpl->tpl_vars['guestInformations']->value['vat_number_invoice'])&&$_smarty_tpl->tpl_vars['guestInformations']->value['vat_number_invoice']) {?><?php echo $_smarty_tpl->tpl_vars['guestInformations']->value['vat_number_invoice'];?>
 <?php }?>" />
-							</div>
-						</div>
-						<?php } elseif ($_smarty_tpl->tpl_vars['field_name']->value=="dni") {?>
-						<?php $_smarty_tpl->tpl_vars['dniExist'] = new Smarty_variable(true, null, 0);?>
-						<div class="required form-group dni_invoice">
-							<label for="dni"><?php echo smartyTranslate(array('s'=>'Identification number'),$_smarty_tpl);?>
+									</div>
+								</div>
+							<?php } elseif ($_smarty_tpl->tpl_vars['field_name']->value=="dni") {?>
+								<?php $_smarty_tpl->tpl_vars['dniExist'] = new Smarty_variable(true, null, 0);?>
+								<div class="required form-group dni_invoice">
+									<label for="dni"><?php echo smartyTranslate(array('s'=>'Identification number'),$_smarty_tpl);?>
  <sup>*</sup></label>
-							<input type="text" class="text form-control validate" name="dni_invoice" id="dni_invoice" data-validate="isDniLite" value="<?php if (isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&isset($_smarty_tpl->tpl_vars['guestInformations']->value['dni_invoice'])&&$_smarty_tpl->tpl_vars['guestInformations']->value['dni_invoice']) {?><?php echo $_smarty_tpl->tpl_vars['guestInformations']->value['dni_invoice'];?>
+									<input type="text" class="text form-control validate" name="dni_invoice" id="dni_invoice" data-validate="isDniLite" value="<?php if (isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&isset($_smarty_tpl->tpl_vars['guestInformations']->value['dni_invoice'])&&$_smarty_tpl->tpl_vars['guestInformations']->value['dni_invoice']) {?><?php echo $_smarty_tpl->tpl_vars['guestInformations']->value['dni_invoice'];?>
 <?php }?>" />
-							<span class="form_info"><?php echo smartyTranslate(array('s'=>'DNI / NIF / NIE'),$_smarty_tpl);?>
+									<span class="form_info"><?php echo smartyTranslate(array('s'=>'DNI / NIF / NIE'),$_smarty_tpl);?>
 </span>
-						</div>
-						<?php } elseif ($_smarty_tpl->tpl_vars['field_name']->value=="firstname") {?>
-						<div class="required form-group">
-							<label for="firstname_invoice"><?php echo smartyTranslate(array('s'=>'First name'),$_smarty_tpl);?>
+								</div>
+							<?php } elseif ($_smarty_tpl->tpl_vars['field_name']->value=="firstname") {?>
+								<div class="required form-group">
+									<label for="firstname_invoice"><?php echo smartyTranslate(array('s'=>'First name'),$_smarty_tpl);?>
  <sup>*</sup></label>
-							<input type="text" class="form-control validate" id="firstname_invoice" name="firstname_invoice" data-validate="isName" value="<?php if (isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&isset($_smarty_tpl->tpl_vars['guestInformations']->value['firstname_invoice'])&&$_smarty_tpl->tpl_vars['guestInformations']->value['firstname_invoice']) {?><?php echo $_smarty_tpl->tpl_vars['guestInformations']->value['firstname_invoice'];?>
+									<input type="text" class="form-control validate" id="firstname_invoice" name="firstname_invoice" data-validate="isName" value="<?php if (isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&isset($_smarty_tpl->tpl_vars['guestInformations']->value['firstname_invoice'])&&$_smarty_tpl->tpl_vars['guestInformations']->value['firstname_invoice']) {?><?php echo $_smarty_tpl->tpl_vars['guestInformations']->value['firstname_invoice'];?>
 <?php }?>" />
-						</div>
-						<?php } elseif ($_smarty_tpl->tpl_vars['field_name']->value=="lastname") {?>
-						<div class="required form-group">
-							<label for="lastname_invoice"><?php echo smartyTranslate(array('s'=>'Last name'),$_smarty_tpl);?>
+								</div>
+							<?php } elseif ($_smarty_tpl->tpl_vars['field_name']->value=="lastname") {?>
+								<div class="required form-group">
+									<label for="lastname_invoice"><?php echo smartyTranslate(array('s'=>'Last name'),$_smarty_tpl);?>
  <sup>*</sup></label>
-							<input type="text" class="form-control validate" id="lastname_invoice" name="lastname_invoice" data-validate="isName" value="<?php if (isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&isset($_smarty_tpl->tpl_vars['guestInformations']->value['lastname_invoice'])&&$_smarty_tpl->tpl_vars['guestInformations']->value['lastname_invoice']) {?><?php echo $_smarty_tpl->tpl_vars['guestInformations']->value['lastname_invoice'];?>
+									<input type="text" class="form-control validate" id="lastname_invoice" name="lastname_invoice" data-validate="isName" value="<?php if (isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&isset($_smarty_tpl->tpl_vars['guestInformations']->value['lastname_invoice'])&&$_smarty_tpl->tpl_vars['guestInformations']->value['lastname_invoice']) {?><?php echo $_smarty_tpl->tpl_vars['guestInformations']->value['lastname_invoice'];?>
 <?php }?>" />
-						</div>
-						<?php } elseif ($_smarty_tpl->tpl_vars['field_name']->value=="address1") {?>
-						<div class="required form-group">
-							<label for="address1_invoice"><?php echo smartyTranslate(array('s'=>'Address'),$_smarty_tpl);?>
+								</div>
+							<?php } elseif ($_smarty_tpl->tpl_vars['field_name']->value=="fax") {?>
+								<div class="form-group">
+									<label for="fax_invoice"><?php echo smartyTranslate(array('s'=>'Fax'),$_smarty_tpl);?>
+</label>
+									<input type="text" class="form-control validate" id="fax_invoice" name="fax_invoice" value="<?php if (isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&isset($_smarty_tpl->tpl_vars['guestInformations']->value['fax_invoice'])&&$_smarty_tpl->tpl_vars['guestInformations']->value['fax_invoice']) {?><?php echo $_smarty_tpl->tpl_vars['guestInformations']->value['fax_invoice'];?>
+<?php }?>" />
+								</div>
+							<?php } elseif ($_smarty_tpl->tpl_vars['field_name']->value=="details_website") {?>
+								<div class="form-group">
+									<label for="fax_invoice"><?php echo smartyTranslate(array('s'=>'Website'),$_smarty_tpl);?>
+</label>
+									<input type="text" class="form-control validate" id="details_website_invoice" name="details_website_invoice" value="<?php if (isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&isset($_smarty_tpl->tpl_vars['guestInformations']->value['details_website_invoice'])&&$_smarty_tpl->tpl_vars['guestInformations']->value['details_website_invoice']) {?><?php echo $_smarty_tpl->tpl_vars['guestInformations']->value['details_website_invoice'];?>
+<?php }?>" />
+								</div>
+							<?php } elseif ($_smarty_tpl->tpl_vars['field_name']->value=="address1") {?>
+								<div class="required form-group">
+									<label for="address1_invoice"><?php echo smartyTranslate(array('s'=>'Address'),$_smarty_tpl);?>
  <sup>*</sup></label>
-							<input type="text" class="form-control validate" name="address1_invoice" id="address1_invoice" data-validate="isAddress" value="<?php if (isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&isset($_smarty_tpl->tpl_vars['guestInformations']->value['address1_invoice'])&&isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&isset($_smarty_tpl->tpl_vars['guestInformations']->value['address1_invoice'])&&$_smarty_tpl->tpl_vars['guestInformations']->value['address1_invoice']) {?><?php echo $_smarty_tpl->tpl_vars['guestInformations']->value['address1_invoice'];?>
+									<input type="text" class="form-control validate" name="address1_invoice" id="address1_invoice" data-validate="isAddress" value="<?php if (isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&isset($_smarty_tpl->tpl_vars['guestInformations']->value['address1_invoice'])&&isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&isset($_smarty_tpl->tpl_vars['guestInformations']->value['address1_invoice'])&&$_smarty_tpl->tpl_vars['guestInformations']->value['address1_invoice']) {?><?php echo $_smarty_tpl->tpl_vars['guestInformations']->value['address1_invoice'];?>
 <?php }?>" />
-						</div>
-						<?php } elseif ($_smarty_tpl->tpl_vars['field_name']->value=="address2") {?>
-						<div class="form-group<?php if (!in_array($_smarty_tpl->tpl_vars['field_name']->value,$_smarty_tpl->tpl_vars['required_fields']->value)) {?> is_customer_param<?php }?>">
-							<label for="address2_invoice"><?php echo smartyTranslate(array('s'=>'Address (Line 2)'),$_smarty_tpl);?>
+								</div>
+							<?php } elseif ($_smarty_tpl->tpl_vars['field_name']->value=="address2") {?>
+								<div class="form-group<?php if (!in_array($_smarty_tpl->tpl_vars['field_name']->value,$_smarty_tpl->tpl_vars['required_fields']->value)) {?> is_customer_param<?php }?>">
+									<label for="address2_invoice"><?php echo smartyTranslate(array('s'=>'Address (Line 2)'),$_smarty_tpl);?>
 <?php if (in_array($_smarty_tpl->tpl_vars['field_name']->value,$_smarty_tpl->tpl_vars['required_fields']->value)) {?> <sup>*</sup><?php }?></label>
-							<input type="text" class="form-control address" name="address2_invoice" id="address2_invoice" data-validate="isAddress" value="<?php if (isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&isset($_smarty_tpl->tpl_vars['guestInformations']->value['address2_invoice'])&&isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&isset($_smarty_tpl->tpl_vars['guestInformations']->value['address2_invoice'])&&$_smarty_tpl->tpl_vars['guestInformations']->value['address2_invoice']) {?><?php echo $_smarty_tpl->tpl_vars['guestInformations']->value['address2_invoice'];?>
+									<input type="text" class="form-control address" name="address2_invoice" id="address2_invoice" data-validate="isAddress" value="<?php if (isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&isset($_smarty_tpl->tpl_vars['guestInformations']->value['address2_invoice'])&&isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&isset($_smarty_tpl->tpl_vars['guestInformations']->value['address2_invoice'])&&$_smarty_tpl->tpl_vars['guestInformations']->value['address2_invoice']) {?><?php echo $_smarty_tpl->tpl_vars['guestInformations']->value['address2_invoice'];?>
 <?php }?>" />
-						</div>
-						<?php } elseif ($_smarty_tpl->tpl_vars['field_name']->value=="postcode") {?>
-						<?php $_smarty_tpl->tpl_vars['postCodeExist'] = new Smarty_variable(true, null, 0);?>
-						<div class="required postcode_invoice form-group">
-							<label for="postcode_invoice"><?php echo smartyTranslate(array('s'=>'Zip/Postal Code'),$_smarty_tpl);?>
+								</div>
+							<?php } elseif ($_smarty_tpl->tpl_vars['field_name']->value=="postcode") {?>
+								<?php $_smarty_tpl->tpl_vars['postCodeExist'] = new Smarty_variable(true, null, 0);?>
+								<div class="required postcode_invoice form-group">
+									<label for="postcode_invoice"><?php echo smartyTranslate(array('s'=>'Zip/Postal Code'),$_smarty_tpl);?>
  <sup>*</sup></label>
-							<input type="text" class="form-control validate" name="postcode_invoice" id="postcode_invoice" data-validate="isPostCode" value="<?php if (isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&isset($_smarty_tpl->tpl_vars['guestInformations']->value['postcode_invoice'])&&$_smarty_tpl->tpl_vars['guestInformations']->value['postcode_invoice']) {?><?php echo $_smarty_tpl->tpl_vars['guestInformations']->value['postcode_invoice'];?>
+									<input type="text" class="form-control validate" name="postcode_invoice" id="postcode_invoice" data-validate="isPostCode" value="<?php if (isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&isset($_smarty_tpl->tpl_vars['guestInformations']->value['postcode_invoice'])&&$_smarty_tpl->tpl_vars['guestInformations']->value['postcode_invoice']) {?><?php echo $_smarty_tpl->tpl_vars['guestInformations']->value['postcode_invoice'];?>
 <?php }?>" onkeyup="$('#postcode_invoice').val($('#postcode_invoice').val().toUpperCase());" />
-						</div>
-						<?php } elseif ($_smarty_tpl->tpl_vars['field_name']->value=="city") {?>
-						<div class="required form-group">
-							<label for="city_invoice"><?php echo smartyTranslate(array('s'=>'City'),$_smarty_tpl);?>
+								</div>
+							<?php } elseif ($_smarty_tpl->tpl_vars['field_name']->value=="city") {?>
+								<div class="required form-group">
+									<label for="city_invoice"><?php echo smartyTranslate(array('s'=>'City'),$_smarty_tpl);?>
  <sup>*</sup></label>
-							<input type="text" class="form-control validate" name="city_invoice" id="city_invoice" data-validate="isCityName" value="<?php if (isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&isset($_smarty_tpl->tpl_vars['guestInformations']->value['city_invoice'])&&$_smarty_tpl->tpl_vars['guestInformations']->value['city_invoice']) {?><?php echo $_smarty_tpl->tpl_vars['guestInformations']->value['city_invoice'];?>
+									<input type="text" class="form-control validate" name="city_invoice" id="city_invoice" data-validate="isCityName" value="<?php if (isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&isset($_smarty_tpl->tpl_vars['guestInformations']->value['city_invoice'])&&$_smarty_tpl->tpl_vars['guestInformations']->value['city_invoice']) {?><?php echo $_smarty_tpl->tpl_vars['guestInformations']->value['city_invoice'];?>
 <?php }?>" />
-						</div>
-						<?php } elseif ($_smarty_tpl->tpl_vars['field_name']->value=="country"||$_smarty_tpl->tpl_vars['field_name']->value=="Country:name") {?>
-						<div class="required form-group">
-							<label for="id_country_invoice"><?php echo smartyTranslate(array('s'=>'Country'),$_smarty_tpl);?>
+								</div>
+							<?php } elseif ($_smarty_tpl->tpl_vars['field_name']->value=="country"||$_smarty_tpl->tpl_vars['field_name']->value=="Country:name") {?>
+								<div class="required form-group">
+									<label for="id_country_invoice"><?php echo smartyTranslate(array('s'=>'Country'),$_smarty_tpl);?>
  <sup>*</sup></label>
-							<select name="id_country_invoice" id="id_country_invoice" class="form-control">
-								<option value="">-</option>
-								<?php  $_smarty_tpl->tpl_vars['v'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['v']->_loop = false;
+									<select name="id_country_invoice" id="id_country_invoice" class="form-control">
+										<option value="">-</option>
+										<?php  $_smarty_tpl->tpl_vars['v'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['v']->_loop = false;
  $_from = $_smarty_tpl->tpl_vars['countries']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
 foreach ($_from as $_smarty_tpl->tpl_vars['v']->key => $_smarty_tpl->tpl_vars['v']->value) {
 $_smarty_tpl->tpl_vars['v']->_loop = true;
 ?>
-								<option value="<?php echo $_smarty_tpl->tpl_vars['v']->value['id_country'];?>
+											<option value="<?php echo $_smarty_tpl->tpl_vars['v']->value['id_country'];?>
 "<?php if ((isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&isset($_smarty_tpl->tpl_vars['guestInformations']->value['id_country_invoice'])&&$_smarty_tpl->tpl_vars['guestInformations']->value['id_country_invoice']==$_smarty_tpl->tpl_vars['v']->value['id_country'])||(!isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&$_smarty_tpl->tpl_vars['sl_country']->value==$_smarty_tpl->tpl_vars['v']->value['id_country'])) {?> selected="selected"<?php }?>><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['v']->value['name'], ENT_QUOTES, 'UTF-8', true);?>
 </option>
-								<?php } ?>
-							</select>
-						</div>
-						<?php } elseif ($_smarty_tpl->tpl_vars['field_name']->value=="state"||$_smarty_tpl->tpl_vars['field_name']->value=='State:name') {?>
-						<?php $_smarty_tpl->tpl_vars['stateExist'] = new Smarty_variable(true, null, 0);?>
-						<div class="required id_state_invoice form-group" style="display:none;">
-							<label for="id_state_invoice"><?php echo smartyTranslate(array('s'=>'State'),$_smarty_tpl);?>
+										<?php } ?>
+									</select>
+								</div>
+							<?php } elseif ($_smarty_tpl->tpl_vars['field_name']->value=="state"||$_smarty_tpl->tpl_vars['field_name']->value=='State:name') {?>
+								<?php $_smarty_tpl->tpl_vars['stateExist'] = new Smarty_variable(true, null, 0);?>
+								<div class="required id_state_invoice form-group" style="display:none;">
+									<label for="id_state_invoice"><?php echo smartyTranslate(array('s'=>'State'),$_smarty_tpl);?>
  <sup>*</sup></label>
-							<select name="id_state_invoice" id="id_state_invoice" class="form-control">
-								<option value="">-</option>
-							</select>
-						</div>
-						<?php }?>
+									<select name="id_state_invoice" id="id_state_invoice" class="form-control">
+										<option value="">-</option>
+									</select>
+								</div>
+							<?php }?>
 						<?php } ?>
 						<?php if (!$_smarty_tpl->tpl_vars['postCodeExist']->value) {?>
-						<div class="required postcode_invoice form-group unvisible">
-							<label for="postcode_invoice"><?php echo smartyTranslate(array('s'=>'Zip/Postal Code'),$_smarty_tpl);?>
+							<div class="required postcode_invoice form-group unvisible">
+								<label for="postcode_invoice"><?php echo smartyTranslate(array('s'=>'Zip/Postal Code'),$_smarty_tpl);?>
  <sup>*</sup></label>
-							<input type="text" class="form-control validate" name="postcode_invoice" id="postcode_invoice" data-validate="isPostCode" value="<?php if (isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&isset($_smarty_tpl->tpl_vars['guestInformations']->value['postcode_invoice'])&&$_smarty_tpl->tpl_vars['guestInformations']->value['postcode_invoice']) {?><?php echo $_smarty_tpl->tpl_vars['guestInformations']->value['postcode_invoice'];?>
+								<input type="text" class="form-control validate" name="postcode_invoice" id="postcode_invoice" data-validate="isPostCode" value="<?php if (isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&isset($_smarty_tpl->tpl_vars['guestInformations']->value['postcode_invoice'])&&$_smarty_tpl->tpl_vars['guestInformations']->value['postcode_invoice']) {?><?php echo $_smarty_tpl->tpl_vars['guestInformations']->value['postcode_invoice'];?>
 <?php }?>" onkeyup="$('#postcode').val($('#postcode').val().toUpperCase());" />
-						</div>
+							</div>
 						<?php }?>
 						<?php if (!$_smarty_tpl->tpl_vars['stateExist']->value) {?>
-						<div class="required id_state_invoice form-group unvisible">
-							<label for="id_state_invoice"><?php echo smartyTranslate(array('s'=>'State'),$_smarty_tpl);?>
+							<div class="required id_state_invoice form-group unvisible">
+								<label for="id_state_invoice"><?php echo smartyTranslate(array('s'=>'State'),$_smarty_tpl);?>
  <sup>*</sup></label>
-							<select name="id_state_invoice" id="id_state_invoice" class="form-control">
-								<option value="">-</option>
-							</select>
-						</div>
+								<select name="id_state_invoice" id="id_state_invoice" class="form-control">
+									<option value="">-</option>
+								</select>
+							</div>
 						<?php }?>
 						<?php if (!$_smarty_tpl->tpl_vars['dniExist']->value) {?>
-						<div class="required form-group dni_invoice">
-							<label for="dni"><?php echo smartyTranslate(array('s'=>'Identification number'),$_smarty_tpl);?>
+							<div class="required form-group dni_invoice">
+								<label for="dni"><?php echo smartyTranslate(array('s'=>'Identification number'),$_smarty_tpl);?>
  <sup>*</sup></label>
-							<input type="text" class="text form-control validate" name="dni_invoice" id="dni_invoice" data-validate="isDniLite" value="<?php if (isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&isset($_smarty_tpl->tpl_vars['guestInformations']->value['dni_invoice'])&&$_smarty_tpl->tpl_vars['guestInformations']->value['dni_invoice']) {?><?php echo $_smarty_tpl->tpl_vars['guestInformations']->value['dni_invoice'];?>
+								<input type="text" class="text form-control validate" name="dni_invoice" id="dni_invoice" data-validate="isDniLite" value="<?php if (isset($_smarty_tpl->tpl_vars['guestInformations']->value)&&isset($_smarty_tpl->tpl_vars['guestInformations']->value['dni_invoice'])&&$_smarty_tpl->tpl_vars['guestInformations']->value['dni_invoice']) {?><?php echo $_smarty_tpl->tpl_vars['guestInformations']->value['dni_invoice'];?>
 <?php }?>" />
-							<span class="form_info"><?php echo smartyTranslate(array('s'=>'DNI / NIF / NIE'),$_smarty_tpl);?>
+								<span class="form_info"><?php echo smartyTranslate(array('s'=>'DNI / NIF / NIE'),$_smarty_tpl);?>
 </span>
-						</div>
+							</div>
 						<?php }?>
 						<div class="form-group is_customer_param">
 							<label for="other_invoice"><?php echo smartyTranslate(array('s'=>'Additional information'),$_smarty_tpl);?>
@@ -591,7 +570,7 @@ $_smarty_tpl->tpl_vars['v']->_loop = true;
 						<?php echo smartyTranslate(array('s'=>'Account information saved successfully'),$_smarty_tpl);?>
 
 					</div>
-				<!-- END Account -->
+					<!-- END Account -->
 				</div>
 			</div>
 		</fieldset>

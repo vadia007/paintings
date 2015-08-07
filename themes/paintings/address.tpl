@@ -84,6 +84,18 @@
 					<input class="is_required validate form-control" data-validate="{$address_validation.$field_name.validate}" type="text" id="lastname" name="lastname" value="{if isset($smarty.post.lastname)}{$smarty.post.lastname}{else}{if isset($address->lastname)}{$address->lastname|escape:'html':'UTF-8'}{/if}{/if}" />
 				</div>
 			{/if}
+			{if $field_name eq 'fax'}
+				<div class="form-group">
+					<label for="fax">{l s='Fax'}</label>
+					<input class="validate form-control" data-validate="" type="text" id="fax" name="fax" value="{if isset($smarty.post.fax)}{$smarty.post.fax}{else}{if isset($address->fax)}{$address->fax|escape:'html':'UTF-8'}{/if}{/if}" />
+				</div>
+			{/if}
+			{if $field_name eq 'details_website'}
+				<div class="form-group">
+					<label for="details_website">{l s='Details website'}</label>
+					<input class="validate form-control" data-validate="" type="text" id="details_website" name="details_website" value="{if isset($smarty.post.details_website)}{$smarty.post.details_website}{else}{if isset($address->details_website)}{$address->details_website|escape:'html':'UTF-8'}{/if}{/if}" />
+				</div>
+			{/if}
 			{if $field_name eq 'address1'}
 				<div class="required form-group">
 					<label for="address1">{l s='Address'} <sup>*</sup></label>

@@ -1,20 +1,22 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2015-08-04 09:52:24
+<?php /* Smarty version Smarty-3.1.19, created on 2015-08-07 15:05:51
          compiled from "/var/www/html/paintings.loc/themes/paintings/header.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:207253482255c07d48dc5d84-11884352%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:45390380755c496cd939cf6-24344984%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '7af972c9814bcd7ee14b1e4cd1e814d172e939f3' => 
     array (
       0 => '/var/www/html/paintings.loc/themes/paintings/header.tpl',
-      1 => 1438606134,
+      1 => 1438956346,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '207253482255c07d48dc5d84-11884352',
+  'nocache_hash' => '45390380755c496cd939cf6-24344984',
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_55c496cda58657_24498585',
   'variables' => 
   array (
     'language_code' => 0,
@@ -57,10 +59,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'cols' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_55c07d48f0b620_13600141',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_55c07d48f0b620_13600141')) {function content_55c07d48f0b620_13600141($_smarty_tpl) {?><?php if (!is_callable('smarty_function_implode')) include '/var/www/html/paintings.loc/tools/smarty/plugins/function.implode.php';
+<?php if ($_valid && !is_callable('content_55c496cda58657_24498585')) {function content_55c496cda58657_24498585($_smarty_tpl) {?><?php if (!is_callable('smarty_function_implode')) include '/var/www/html/paintings.loc/tools/smarty/plugins/function.implode.php';
 ?>
 
 <!DOCTYPE HTML>
@@ -152,6 +152,12 @@ $_smarty_tpl->tpl_vars['js_uri']->_loop = true;
     </div>
 <?php }?>
 
+<?php if ($_smarty_tpl->tpl_vars['page_name']->value=='order-opc'||$_smarty_tpl->tpl_vars['page_name']->value=='module-paypal-confirm'||$_smarty_tpl->tpl_vars['page_name']->value=='module-paypal-submit') {?>
+<div id="checkout-bg">
+<div id="wrapper-checkout">
+    <div id="wrapper-container">
+        <div id="page-content-top">
+<?php } else { ?>
 <div id="page">
     <div class="header-container">
         <header id="header">
@@ -260,4 +266,4 @@ logo.png"
                 <div id="center_column" class="center_column col-xs-12 col-sm-<?php echo intval($_smarty_tpl->tpl_vars['cols']->value);?>
 ">
                     <?php }?>
-<?php }} ?>
+<?php }?><?php }} ?>
